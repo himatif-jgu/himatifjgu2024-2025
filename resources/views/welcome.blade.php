@@ -1,0 +1,1034 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Himatif Website - JGU</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href=" {{ asset('assets-landing/assets/img/Logo HIMATIF 1.png') }}" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href=" {{ asset('assets-landing/assets/vendor/aos/aos.css') }}" rel="stylesheet">
+  <link href=" {{ asset('assets-landing/assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+  <link href=" {{ asset('assets-landing/assets/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
+  <link href=" {{ asset('assets-landing/assets/vendor/boxicons/css/boxicons.min.css') }}" rel="stylesheet">
+  <link href=" {{ asset('assets-landing/assets/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
+  <link href=" {{ asset('assets-landing/assets/vendor/remixicon/remixicon.css') }}" rel="stylesheet">
+  <link href=" {{ asset('assets-landing/assets/vendor/swiper/swiper-bundle.min.css"') }} rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!-- Template Main CSS File -->
+  <link href="{{ asset('assets-landing/assets/css/style.css') }}" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Bootslander
+  * Template URL: https://bootstrapmade.com/bootslander-free-bootstrap-landing-page-template/
+  * Updated: Mar 17 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <div class="logo">
+        <img src="{{ asset('assets-landing/assets/img/Logo HIMATIF 1.png') }}" alt="">
+        <h1><a href="index.html"><span>Himatif</span></a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#team">Struktur</a></li>
+          <li><a class="nav-link scrollto" href="#pricing">Berita</a></li>
+          <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
+          <li><a class="nav-link scrollto" href="#testimonials">Alumni</a></li>
+         
+          <li><a class="nav-link scrollto" href="#contact">Kontak</a></li>
+        
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
+          <div data-aos="zoom-out">
+            <h1>Welcome To Our Website <span>HIMATIF</span></h1>
+            <h2>Himpunan Mahasiswa Teknik Informatika 
+              <br>Jakarta Global University</h2>
+           
+          </div>
+        </div>
+        <div class="col-lg-4 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="300">
+          <img src="{{ asset('assets-landing/assets/img/Desain tanpa judul (73).png') }}" class="img-fluid animated" alt="">
+        </div>
+      </div>
+    </div>
+
+    <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+      <defs>
+        <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+      </defs>
+      <g class="wave1">
+        <use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)">
+      </g>
+      <g class="wave2">
+        <use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)">
+      </g>
+      <g class="wave3">
+        <use xlink:href="#wave-path" x="50" y="9" fill="#fff">
+      </g>
+    </svg>
+
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+    <center>
+      <div class="section-title" data-aos="fade-up">
+        <h2>SeJARAH</h2>
+        <p>SEJARAH HIMATIF</p>
+      </div>
+    </center>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch" 
+          data-aos="fade-right">
+          <!-- <img src="assets/img/Foto.png" alt="" class="back"> -->
+          </div>
+
+          <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5" data-aos="fade-left">
+            <h3>Sejarah Himpunan Mahasiswa Teknik Informatika</h3>
+            <p class="tulisan">Proses awal terbentuknya Himpunan Mahasiswa Teknik Informatika (HIMATIF) dimulai saat Kampus masih dikenal sebagai Sekolah Tinggi Teknologi Jakarta (STTJ). Pada masa itu, tingkat akreditasi program studi Teknik Informatika di STTJ rendah, kegiatan mahasiswa Teknik Informatika minim, dan sumber daya manusia dari mahasiswa Teknik Informatika kurang memadai. Sebagai respons terhadap kondisi tersebut, mahasiswa Teknik Informatika sepakat untuk mendirikan HIMATIF melalui Forum Musyawarah yang berlangsung dari tahun 2013 hingga akhir 2018. Forum tersebut membahas berbagai hal seperti logo, Anggaran Dasar/Anggaran Rumah Tangga (AD/ART), dan Garis Besar Haluan Organisasi (GBHO). Pada tanggal 19 Mei 2019, HIMATIF secara resmi berpisah dari Himpunan Mahasiswa Teknik Elektro (HME) untuk menjadi entitas mandiri. Proses pemisahan ini diawali dengan kegiatan Musyawarah Mahasiswa pada tanggal 27 Juni 2019. Kemudian Himpunan Mahasiswa Teknik Informatika (HIMATIF) resmi didirikan pada tanggal 18 Agustus 2019 di kampus yang berubah nama menjadi Institut Teknologi dan Kesehatan Jakarta (ITKJ)</p>
+
+            <!-- Modal Sejarah -->
+            <a href="{{ route('sejarah') }}" class="btn-buy">Selengkapnya</a>
+            {{-- <button type="button" class="btn-buy" data-toggle="modal" data-target="#sejarahModal"><i class="bi bi-arrow-right-circle"></i> --}}
+            </button>
+
+          </div>
+          
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+     <!-- ======= Pricing Section ======= -->
+     <section id="about" class="pricing">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>HIMATIF</h2>
+          <p>VISI DAN MISI</p>
+        </div>
+
+        <div class="row" data-aos="fade-left">
+          
+          <div class="col-lg-5 col-md-12">
+            <div class="box" data-aos="zoom-in" data-aos-delay="100">
+             
+              <img src="{{ asset('assets-landing/assets/img/visi.png') }}" alt="">
+              <h3>VISI</h3>
+              <p>Merekontruksi nalar kritis Himpunan Mahasiswa Teknik Informatika sebagai upaya membentuk sumber daya yang bergerak secara dinamis, aktif, inovatif dan responsive terhadap tim dan kondisi sosial yang dilandasi iman dan taqwa</p>
+             
+              <div class="btn-wrap">
+                <button type="button" class="btn-buy" data-toggle="modal" data-target="#visiModal">
+                  selengkapnya
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-5 col-md-12">
+            <div class="box" data-aos="zoom-in" data-aos-delay="100">
+              
+              <img src="{{ asset('assets-landing/assets/img/misi.png') }}" alt="">
+              <h3>MISI</h3>
+              <p>1. Meningkatkan hubungan erat yang sinergis dan positif antar sesama anggota himpunan Teknik Informatika maupun diluar himpunan Teknik Informatika <br><br></p>
+              
+              
+              <div class="btn-wrap">
+                <button type="button" class="btn-buy" data-toggle="modal" data-target="#misiModal">
+                  Selengkapnya
+                </button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Pricing Section -->
+
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>STRUKTUR ORGANISASI</h2>
+          <p>KABINET LAKSANA ESTUNGKARA</p>
+        </div>
+
+        <div class="row" data-aos="fade-left">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="member" data-aos="zoom-in" data-aos-delay="100">
+              <div class="pic"><img src="{{ asset('assets-landing/assets/img/team/32.png') }}" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Keseketariatan</h4>
+                <span>Ketua, Wakil, Seketaris, Bendahara</span>
+                <div class="social">
+                  <button type="button" class="btn-buy" data-toggle="modal" data-target="#sekreModal"><i class="bi bi-arrow-right-circle"></i></button>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mt-5 mt-md-0">
+            <div class="member" data-aos="zoom-in" data-aos-delay="200">
+              <div class="pic"><img src="{{ asset('assets-landing/assets/img/team/1.png') }}" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>DEPT INFOKOM</h4>
+                <span>INFORMASI DAN KOMUNIKASI</span>
+                <div class="social">
+                  <button type="button" class="btn-buy" data-toggle="modal" data-target="#infokomModal"><i class="bi bi-arrow-right-circle"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mt-5 mt-lg-0">
+            <div class="member" data-aos="zoom-in" data-aos-delay="300">
+              <div class="pic"><img src="{{ asset('assets-landing/assets/img/team/2.png') }}" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>DEPT KASTRAT</h4>
+                <span>KAJIAN DAN RISET STRATEGIS </span>
+                <div class="social">
+                  <button type="button" class="btn-buy" data-toggle="modal" data-target="#kastratModal"><i class="bi bi-arrow-right-circle"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row" data-aos="fade-left">
+          <div class="col-lg-4 col-md-6 mt-5 mt-lg-0">
+            <div class="member" data-aos="zoom-in" data-aos-delay="400">
+              <div class="pic"><img src="{{ asset('assets-landing/assets/img/team/pemtek.png') }}" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>DEPT PEMTEK</h4>
+                <span>PENGEMBANGAN TEKNOLOGI</span>
+                <div class="social">
+                  <button type="button" class="btn-buy" data-toggle="modal" data-target="#pemtekModal"><i class="bi bi-arrow-right-circle"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="member" data-aos="zoom-in" data-aos-delay="100">
+              <div class="pic"><img src="{{ asset('assets-landing/assets/img/team/5.png') }}" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>DEPT HUMAS</h4>
+                <span>HUBUNGAN MASYARAKAT</span>
+                <div class="social">
+                  <button type="button" class="btn-buy" data-toggle="modal" data-target="#humasModal"><i class="bi bi-arrow-right-circle"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mt-5 mt-md-0">
+            <div class="member" data-aos="zoom-in" data-aos-delay="200">
+              <div class="pic"><img src="{{ asset('assets-landing/assets/img/team/3.png') }}" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>DEPT DANUS</h4>
+                <span>DANA USAHA</span>
+                <div class="social">
+                  <button type="button" class="btn-buy" data-toggle="modal" data-target="#danusModal"><i class="bi bi-arrow-right-circle"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Team Section -->
+
+    <!-- ======= Recent Blog Posts Section ======= -->
+    <section id="pricing" class="recent-blog-posts">
+
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>BLOG</h2>
+          <p>BERITA HIMATIF</p>
+        </div>
+
+        <div class="row">
+          @foreach($posts as $post)
+          <div class="col-lg-4">
+            <div class="post-box">
+              <div class="post-img"><img src="{{ asset('storage/'. $post->image_cover) }}" class="img-fluid" alt="" width="1080px" height="1352px"></div>
+              <span class="post-date">{{ $post->created_at->diffForHumans()}}</span>
+              <h3 class="post-title">{{ $post->title }}</h3>
+              <a href="{{ route('blog.post', $post->id) }}" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+          @endforeach
+          <div class="btn-wrap">
+            <a href="{{ route('blog') }}" class="btn-buy">Selengkapnya</a>
+         
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- End Recent Blog Posts Section -->
+
+  
+
+    <!-- ======= Gallery Section ======= -->
+     <!-- ======= Portfolio Section ======= -->
+     <section id="portfolio" class="portfolio">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Gallery</h2>
+          <p>Gallery Himatif</p>
+        </div>
+
+     
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+          @foreach ($gallery as $gl)
+              
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-img"><img src="{{ asset('storage/'. $gl->image) }}" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>{{ $gl->tahun }}</h4>
+              <p>{{ $gl->nama }}</p>
+              <a href="{{ asset('storage/'. $gl->image) }}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" ><i class="bx bx-plus"></i></a>
+            </div>
+          </div>
+          @endforeach
+
+          <div class="btn-wrap">
+            <a href="{{ route('gallery-landing') }}" class="btn-buy">Selengkapnya</a>
+         
+          </div>
+          
+
+         
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+ <!-- ======= Alumni Section ======= -->
+ <section id="testimonials" class="alumni">
+
+  <div class="container" data-aos="fade-up">
+
+    <div class="section-title" data-aos="fade-up">
+      <h2>Alumni</h2>
+      <p>Alumni Himatif</p>
+    </div>
+
+    <div class="row gy-4">
+      @foreach($alumni as $al)
+      <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+        <div class="member">
+          <div class="member-img">
+            <img src="{{ asset('storage/'. $al->image) }}" class="img-fluid" alt="" width="400px" height="600px">
+          </div>
+          <div class="member-info">
+            <h4>{{ $al->nama }}</h4>
+            <span>Angkatan {{ $al->angkatan }}</span>
+          </div>
+        </div>
+      </div>
+      @endforeach
+
+      
+    
+
+      <div class="btn-wrap">
+        <a href="{{ route('alumni-landing') }}" class="btn-buy">Selengkapnya</a>
+     
+      </div>
+    </div>
+ 
+  </div>
+  
+</section><!-- End Team Section -->
+
+   
+   
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>Contact</h2>
+          <p>Contact Us</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4" data-aos="fade-right" data-aos-delay="100">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>Jakarta Global University. Depok, Indonesia</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>himatif@jgu.ac.id</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p>+62 877-7547-2238</p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left" data-aos-delay="200">
+            <form action="mailto:himatif@jgu.ac.id" method="post" role="form" >
+                <div class="row">
+                    <div class="col-md-6 form-group">
+                        <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="col-md-6 form-group mt-3 mt-md-0">
+                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                    </div>
+                </div>
+                <div class="form-group mt-3">
+                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                </div>
+                <div class="form-group mt-3">
+                    <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                </div>
+              
+                <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+        </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-info">
+              <h3>HIMATIF</h3>
+             <img src="{{asset('assets-landing/assets/img/Logo HIMATIF 1.png')}}" alt=""> <br><br>
+                Jakarta Global University <br>
+                Depok, Indonesia<br><br>
+                <strong>Phone:</strong> +62 12345678<br>
+                <strong>Email:</strong> himatif.19@jgu.ac.id<br>
+              </p>
+              <div class="social-links mt-3">
+                <a href="#" class="twitter"><i class="bx bxl-github"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#hero">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#about">About </a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#team">Struktur</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#pricing">Berita</a></li>
+             
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#gallery">Gallery</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#testimonials">Alumni</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#contact">Kontak</a></li>
+            </ul>
+          </div>
+
+          <!-- <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Our Newsletter</h4>
+            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div> -->
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Saran Dan Kritik</h4>
+            <p>Berikan Kami Saran Dan Kritik melalui email kami secara gratis</p>
+            <form id="emailForm">
+              <input type="text" id="messageInput" placeholder="Masukkan pesan Anda"></input>
+              <button type="submit" onclick="redirectToEmail()">Kirim</button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Himatif</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/bootslander-free-bootstrap-landing-page-template/ -->
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <div id="preloader"></div>
+
+
+
+<!-- Modal misi -->
+<div class="modal fade" id="misiModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content modal-custom"> <!-- Tambahkan kelas modal-custom di sini -->
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">MISI HIMATIF</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <ul class="numbered-list">
+          <li>Meningkatkan hubungan erat yang sinergis dan positif antar sesama anggota himpunan Teknik Informatika maupun diluar himpunan Teknik Informatika</li>
+          <li>Menciptakan sistem kerja yang berkualitas, berkuantitas serta tersistematik Laksana Estungkara</li>
+          <li>Memfasilitasi setiap anggota dalam berkarya dan menyalurkan aspirasinya</li>
+          <li>Merekapitulasi pengelolaan yang belum optimal sebelumnya</li>
+          <li>Meningkatkan kesadaran para anggota akan pentingnya berpartisipasi dalam setiap kegiatan yang dilaksanakan, khususnya pada departemen masing- masing</li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-light btn-center " data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal visi -->
+<div class="modal fade" id="visiModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content modal-custom"> <!-- Tambahkan kelas modal-custom di sini -->
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">VISI HIMATIF</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Merekontruksi nalar kritis Himpunan Mahasiswa Teknik Informatika sebagai upaya membentuk sumber daya yang bergerak secara dinamis, aktif, inovatif dan responsive terhadap tim dan kondisi sosial yang dilandasi iman dan taqwa</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-light btn-center " data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Seketariat-->
+<div class="modal fade" id="sekreModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content  modal-custom">
+      <div class="modal-header">
+        <h5 class="modal-title modal-title-center" id="exampleModalLabel">KESEKRETARIATAN HIMATIF</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="{{ asset('assets-landing/assets/img/team/61.png') }}" alt="First slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Mutiara Syafitri</h5>
+                <p>Ketua Himpunan</p>
+              </div>
+            </div>pngs
+            <div class="carousel-item">
+              <img class="d-block w-100" src="{{ asset('assets-landing/assets/img/team/7.png') }}" alt="Second slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>harsya</h5>
+                <p> Wakil Ketua Himpunan</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="{{ asset('assets-landing/assets/img/team/8.png') }}" alt="Third slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Nabila Rasyiqah</h5>
+                <p>Sekretatis 1</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="{{ asset('assets-landing/assets/img/team/9.png') }}" alt="Third slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Amanda Amalia</h5>
+                <p>Bendahara 1</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="{{ asset('assets-landing/assets/img/team/11.png') }}" alt="Third slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Yoga Zahran Mahardika</h5>
+                <p>Sekretatis 2</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="{{ asset('assets-landing/assets/img/team/10.png') }}" alt="Third slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Muhammad Rizqi Wafii Fahyari</h5>
+                <p>Bendahara 2</p>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal Infokom-->
+<div class="modal fade" id="infokomModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content  modal-custom">
+      <div class="modal-header">
+        <h5 class="modal-title modal-title-center" id="exampleModalLabel">DEPARTEMEN <br> INFORMASI DAN KOMUNIKASI</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div id="carouselInfokom" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselInfokom" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselInfokom" data-slide-to="1"></li>
+            <li data-target="#carouselInfokom" data-slide-to="2"></li>
+            <li data-target="#carouselInfokom" data-slide-to="3"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="{{ asset('assets-landing/assets/img/team/13.png') }}" alt="First slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Intania Syahla Kirana</h5>
+                <p>Ketua Departemen</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="{{ asset('assets-landing/assets/img/team/12.png') }}" alt="Second slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>	Muhammad Fadli Taptajani</h5>
+                <p>Anggota Departemen</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="{{ asset('assets-landing/assets/img/team/14.png') }}" alt="Third slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Ocin Leonaldo</h5>
+                <p>Anggota Departemen</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="{{ asset('assets-landing/assets/img/team/15.png') }}" alt="Third slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Febianna Zahirah</h5>
+                <p>Anggota Departemen</p>
+              </div>
+            </div>
+           
+          </div>
+          <a class="carousel-control-prev" href="#carouselInfokom" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselInfokom" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Modal Kastrat-->
+<div class="modal fade" id="kastratModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content  modal-custom">
+      <div class="modal-header">
+        <h5 class="modal-title modal-title-center" id="exampleModalLabel">DEPARTEMEN <br> KAJIAN DAN RISET STRATEGI</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div id="carouselKastrat" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselKastrat" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselKastrat" data-slide-to="1"></li>
+            <li data-target="#carouselKastrat" data-slide-to="2"></li>
+            <li data-target="#carouselKastrat" data-slide-to="3"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="{{ asset('assets-landing/assets/img/team/16.png') }}" alt="First slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Syntia Tri Utami</h5>
+                <p>Ketua Departemen</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="{{ asset('assets-landing/assets/img/team/17.png') }}" alt="Second slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Muhammad Raihan Alfaiz</h5>
+                <p>Anggota Departemen</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="{{ asset('assets-landing/assets/img/team/18.png') }}" alt="Third slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Wisnu Mega Wardhana</h5>
+                <p>Anggota Departemen</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="{{ asset('assets-landing/assets/img/team/19.png') }}" alt="Third slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Ahnaf Hilman Khilfi Wahyudi</h5>
+                <p>Anggota Departemen</p>
+              </div>
+            </div>
+           
+          </div>
+          <a class="carousel-control-prev" href="#carouselKastrat" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselKastrat" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Modal Pemtek-->
+<div class="modal fade" id="pemtekModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content  modal-custom">
+      <div class="modal-header">
+        <h5 class="modal-title modal-title-center" id="exampleModalLabel">DEPARTEMEN <br> PENGEMBANGAN TEKNOLOGI</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div id="carouselPemtek" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselPemtek" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselPemtek" data-slide-to="1"></li>
+            <li data-target="#carouselPemtek" data-slide-to="2"></li>
+            <li data-target="#carouselPemtek" data-slide-to="3"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="{{ asset('assets-landing/assets/img/team/21.png') }}" alt="First slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Jordy Ismail Arianto</h5>
+                <p>Ketua Departemen</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="{{ asset('assets-landing/assets/img/team/hafidz.png') }}" alt="Second slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Muhammad Hafidz</h5>
+                <p>Anggota Departemen</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="{{ asset('assets-landing/assets/img/team/22.png') }}" alt="Second slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Zhamir Mustafid</h5>
+                <p>Anggota Departemen</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="{{ asset('assets-landing/assets/img/team/23.png') }}" alt="Third slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Akbar Maulana febriansyah</h5>
+                <p>Anggota Departemen</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="{{ asset('assets-landing/assets/img/team/24.png') }}" alt="Third slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Fadly Atthoriq</h5>
+                <p>Anggota Departemen</p>
+              </div>
+            </div>
+           
+          </div>
+          <a class="carousel-control-prev" href="#carouselPemtek" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselPemtek" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Modal Humas-->
+<div class="modal fade" id="humasModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content  modal-custom">
+      <div class="modal-header">
+        <h5 class="modal-title modal-title-center" id="exampleModalLabel">DEPARTEMEN <br> HUBUNGAN MASYARAKAT</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div id="carouselHumas" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselHumas" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselHumas" data-slide-to="1"></li>
+            <li data-target="#carouselHumas" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="{{ asset('assets-landing/assets/img/team/25.png') }}" alt="First slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Muhammad Hasan Ismail</h5>
+                <p>Ketua Departemen</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="{{ asset('assets-landing/assets/img/team/26.png') }}" alt="Second slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Mochamad Haikal Alfarizi</h5>
+                <p>Anggota Departemen</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="{{ asset('assets-landing/assets/img/team/27.png') }}" alt="Third slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Faisal Jatmiko Setiadji Pohoeya</h5>
+                <p>Anggota Departemen</p>
+              </div>
+            </div>
+           
+          </div>
+          <a class="carousel-control-prev" href="#carouselHumas" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselHumas" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Modal Danus-->
+<div class="modal fade" id="danusModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content  modal-custom">
+      <div class="modal-header">
+        <h5 class="modal-title modal-title-center" id="exampleModalLabel">DEPARTEMEN <br>DANA USAHA</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div id="carouselDanus" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselDanus" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselDanus" data-slide-to="1"></li>
+            <li data-target="#carouselDanus" data-slide-to="2"></li>
+            <li data-target="#carouselDanus" data-slide-to="3"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="{{ asset('assets-landing/assets/img/team/28.png') }}" alt="First slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Novejira Angela Pello</h5>
+                <p>Ketua Departemen</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="{{ asset('assets-landing/assets/img/team/29.png') }}" alt="Second slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Mochamad Diaz Zalfa Nandito</h5>
+                <p>Anggota Departemen</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="{{ asset('assets-landing/assets/img/team/30.png') }}" alt="Third slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Diah Alfira Yuni Damayanti</h5>
+                <p>Anggota Departemen</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="{{ asset('assets-landing/assets/img/team/31.png') }}" alt="Third slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Siti Nurhaliza</h5>
+                <p>Anggota Departemen</p>
+              </div>
+            </div>
+           
+          </div>
+          <a class="carousel-control-prev" href="#carouselDanus" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselDanus" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+  
+
+  <!-- Vendor JS Files -->
+  <script src="{{asset('assets-landing/assets/vendor/purecounter/purecounter_vanilla.js')}}"></script>
+  <script src="{{asset('assets-landing/assets/vendor/aos/aos.js') }}"></script>
+  <script src=" {{ asset('assets-landing/assets/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+  <script src=" {{ asset('assets-landing/assets/vendor/glightbox/js/glightbox.min.js') }}"></script>
+  <script src=" {{ asset('assets-landing/assets/vendor/swiper/swiper-bundle.min.js') }}"></script>
+  <script src=" {{ asset('assets-landing/assets/vendor/php-email-form/validate.js') }}"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{{ asset('assets-landing/assets/js/main.js') }}"></script>
+  <script>
+    function redirectToEmail() {
+      var emailAddress = "himatif@jgu.ac.id"; // Ubah sesuai dengan alamat email yang dituju
+      var message = document.getElementById("messageInput").value;
+      var subject = "Saran dan Kritik";
+      var mailtoLink = "mailto:" + encodeURIComponent(emailAddress) + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(message);
+      window.location.href = mailtoLink;
+      return false;
+    }
+    </script>
+ <script>
+  function redirectToEmail() {
+    var name = document.getElementById("name").value;
+    var email = document.getElementById("email").value;
+    var subject = document.getElementById("subject").value;
+    var message = document.getElementById("message").value;
+  
+    // Membuat pesan email dengan informasi yang diberikan
+    var mailtoLink = "mailto:himatif@jgu.ac.id" + 
+      "?subject=" + encodeURI(subject) + 
+      "&body=" + 
+      "Name: " + encodeURI(name) + "\n" + 
+      "Email: " + encodeURI(email) + "\n" + 
+      "Subject: " + encodeURI(subject) + "\n" + 
+      "Message: " + encodeURI(message);
+  
+    // Mengarahkan pengguna ke aplikasi email default dengan pesan yang sudah dibuat
+    window.location.href = mailtoLink;
+    return false;
+  }
+  </script>
+</body>
+
+</html>
