@@ -61,21 +61,21 @@
               </div>
             </form>
   
-            <p class="text-center">
+            {{-- <p class="text-center">
               <span>New on our platform?</span>
               <a href="{{url('/register')}}">
                 <span>Create an account</span>
               </a>
-            </p>
-            <div class="divider my-4">
+            </p> --}}
+            {{-- <div class="divider my-4">
               <div class="divider-text">or</div>
-            </div>
-            <div class="d-flex justify-content-center">
+            </div> --}}
+            {{-- <div class="d-flex justify-content-center">
             
               <a href="{{ route('redirect') }}" class="btn btn-icon btn-label-google-plus me-3">
                 <i class="tf-icons bx bxl-google-plus"></i>
               </a>
-            </div>
+            </div> --}}
           </div>
         </div>
       </div>
