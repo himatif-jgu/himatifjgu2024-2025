@@ -32,6 +32,7 @@
     <!-- Template Main CSS File -->
     <link href="{{ asset('assets-landing/assets/css/style.css') }}" rel="stylesheet">
     <link href="{{ asset('assets-landing/assets/css/welcome.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets-landing/assets/css/depart.css') }}" rel="stylesheet">
 
     <!-- =======================================================
   * Template Name: Bootslander
@@ -484,48 +485,291 @@
           <p>KABINET IGNIS ELEVATIO</p>
         </div>
 
-        <div class="row" data-aos="fade-left">
-
-          <div class="col-lg-4 col-md-6">
-            <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic"><img src="{{ asset('assets-landing/assets/img/team/32.png') }}" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>Keseketariatan</h4>
-                <span>Ketua, Wakil, Seketaris, Bendahara</span>
-                <div class="social">
-                  <button type="button" class="btn-buy" data-toggle="modal" data-target="#sekreModal"><i class="bi bi-arrow-right-circle"></i></button>
-
+        <div class="carousel">
+            <div class="list">
+                <div class="item">
+                    <img src="assets-landing/assets/img/air/img1.png">
+                    <div class="introduce">
+                        <div class="title">DESIGN SLIDER</div>
+                        <div class="topic">Airpod</div>
+                        <div class="des">
+                            <!-- 20 lorem -->
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, laborum cumque dignissimos quidem atque et eligendi aperiam voluptates beatae maxime.
+                        </div>
+                        <button class="seeMore">SEE MORE &#8599</button>
+                    </div>
+                    <div class="detail">
+                        <div class="title">Airpod GHTK</div>
+                        <div class="des">
+                            <!-- lorem 50 -->
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, reiciendis suscipit nobis nulla animi, modi explicabo quod corrupti impedit illo, accusantium in eaque nam quia adipisci aut distinctio porro eligendi. Reprehenderit nostrum consequuntur ea! Accusamus architecto dolores modi ducimus facilis quas voluptatibus! Tempora ratione accusantium magnam nulla tenetur autem beatae.
+                        </div>
+                        <div class="specifications">
+                            <div>
+                                <p>Used Time</p>
+                                <p>6 hours</p>
+                            </div>
+                            <div>
+                                <p>Charging port</p>
+                                <p>Type-C</p>
+                            </div>
+                            <div>
+                                <p>Compatible</p>
+                                <p>Android</p>
+                            </div>
+                            <div>
+                                <p>Bluetooth</p>
+                                <p>5.3</p>
+                            </div>
+                            <div>
+                                <p>Controlled</p>
+                                <p>Touch</p>
+                            </div>
+                        </div>
+                        <div class="checkout">
+                            <button>ADD TO CART</button>
+                            <button>CHECKOUT</button>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-          </div>
 
-          <div class="col-lg-4 col-md-6 mt-5 mt-md-0">
-            <div class="member" data-aos="zoom-in" data-aos-delay="200">
-              <div class="pic"><img src="{{ asset('assets-landing/assets/img/team/1.png') }}" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>DEPT INFOKOM</h4>
-                <span>INFORMASI DAN KOMUNIKASI</span>
-                <div class="social">
-                  <button type="button" class="btn-buy" data-toggle="modal" data-target="#infokomModal"><i class="bi bi-arrow-right-circle"></i></button>
+                <div class="item">
+                    <img src="assets-landing/assets/img/air/img2.png">
+                    <div class="introduce">
+                        <div class="title">DESIGN SLIDER</div>
+                        <div class="topic">Airpod</div>
+                        <div class="des">
+                            <!-- 20 lorem -->
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, laborum cumque dignissimos quidem atque et eligendi aperiam voluptates beatae maxime.
+                        </div>
+                        <button class="seeMore">SEE MORE &#8599</button>
+                    </div>
+                    <div class="detail">
+                        <div class="title">Airpod GHTK</div>
+                        <div class="des">
+                            <!-- lorem 50 -->
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, reiciendis suscipit nobis nulla animi, modi explicabo quod corrupti impedit illo, accusantium in eaque nam quia adipisci aut distinctio porro eligendi. Reprehenderit nostrum consequuntur ea! Accusamus architecto dolores modi ducimus facilis quas voluptatibus! Tempora ratione accusantium magnam nulla tenetur autem beatae.
+                        </div>
+                        <div class="specifications">
+                            <div>
+                                <p>Used Time</p>
+                                <p>6 hours</p>
+                            </div>
+                            <div>
+                                <p>Charging port</p>
+                                <p>Type-C</p>
+                            </div>
+                            <div>
+                                <p>Compatible</p>
+                                <p>Android</p>
+                            </div>
+                            <div>
+                                <p>Bluetooth</p>
+                                <p>5.3</p>
+                            </div>
+                            <div>
+                                <p>Controlled</p>
+                                <p>Touch</p>
+                            </div>
+                        </div>
+                        <div class="checkout">
+                            <button>ADD TO CART</button>
+                            <button>CHECKOUT</button>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-          </div>
 
-          <div class="col-lg-4 col-md-6 mt-5 mt-lg-0">
-            <div class="member" data-aos="zoom-in" data-aos-delay="300">
-              <div class="pic"><img src="{{ asset('assets-landing/assets/img/team/2.png') }}" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>DEPT KASTRAT</h4>
-                <span>KAJIAN DAN RISET STRATEGIS </span>
-                <div class="social">
-                  <button type="button" class="btn-buy" data-toggle="modal" data-target="#kastratModal"><i class="bi bi-arrow-right-circle"></i></button>
+                <div class="item">
+                    <img src="assets-landing/assets/img/air/img3.png">
+                    <div class="introduce">
+                        <div class="title">DESIGN SLIDER</div>
+                        <div class="topic">Airpod</div>
+                        <div class="des">
+                            <!-- 20 lorem -->
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, laborum cumque dignissimos quidem atque et eligendi aperiam voluptates beatae maxime.
+                        </div>
+                        <button class="seeMore">SEE MORE &#8599</button>
+                    </div>
+                    <div class="detail">
+                        <div class="title">Airpod GHTK</div>
+                        <div class="des">
+                            <!-- lorem 50 -->
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, reiciendis suscipit nobis nulla animi, modi explicabo quod corrupti impedit illo, accusantium in eaque nam quia adipisci aut distinctio porro eligendi. Reprehenderit nostrum consequuntur ea! Accusamus architecto dolores modi ducimus facilis quas voluptatibus! Tempora ratione accusantium magnam nulla tenetur autem beatae.
+                        </div>
+                        <div class="specifications">
+                            <div>
+                                <p>Used Time</p>
+                                <p>6 hours</p>
+                            </div>
+                            <div>
+                                <p>Charging port</p>
+                                <p>Type-C</p>
+                            </div>
+                            <div>
+                                <p>Compatible</p>
+                                <p>Android</p>
+                            </div>
+                            <div>
+                                <p>Bluetooth</p>
+                                <p>5.3</p>
+                            </div>
+                            <div>
+                                <p>Controlled</p>
+                                <p>Touch</p>
+                            </div>
+                        </div>
+                        <div class="checkout">
+                            <button>ADD TO CART</button>
+                            <button>CHECKOUT</button>
+                        </div>
+                    </div>
                 </div>
-              </div>
+
+                <div class="item">
+                    <img src="assets-landing/assets/img/air/img4.png">
+                    <div class="introduce">
+                        <div class="title">DESIGN SLIDER</div>
+                        <div class="topic">Airpod</div>
+                        <div class="des">
+                            <!-- 20 lorem -->
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, laborum cumque dignissimos quidem atque et eligendi aperiam voluptates beatae maxime.
+                        </div>
+                        <button class="seeMore">SEE MORE &#8599</button>
+                    </div>
+                    <div class="detail">
+                        <div class="title">Airpod GHTK</div>
+                        <div class="des">
+                            <!-- lorem 50 -->
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, reiciendis suscipit nobis nulla animi, modi explicabo quod corrupti impedit illo, accusantium in eaque nam quia adipisci aut distinctio porro eligendi. Reprehenderit nostrum consequuntur ea! Accusamus architecto dolores modi ducimus facilis quas voluptatibus! Tempora ratione accusantium magnam nulla tenetur autem beatae.
+                        </div>
+                        <div class="specifications">
+                            <div>
+                                <p>Used Time</p>
+                                <p>6 hours</p>
+                            </div>
+                            <div>
+                                <p>Charging port</p>
+                                <p>Type-C</p>
+                            </div>
+                            <div>
+                                <p>Compatible</p>
+                                <p>Android</p>
+                            </div>
+                            <div>
+                                <p>Bluetooth</p>
+                                <p>5.3</p>
+                            </div>
+                            <div>
+                                <p>Controlled</p>
+                                <p>Touch</p>
+                            </div>
+                        </div>
+                        <div class="checkout">
+                            <button>ADD TO CART</button>
+                            <button>CHECKOUT</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="assets-landing/assets/img/air/img5.png">
+                    <div class="introduce">
+                        <div class="title">DESIGN SLIDER</div>
+                        <div class="topic">Airpod</div>
+                        <div class="des">
+                            <!-- 20 lorem -->
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, laborum cumque dignissimos quidem atque et eligendi aperiam voluptates beatae maxime.
+                        </div>
+                        <button class="seeMore">SEE MORE &#8599</button>
+                    </div>
+                    <div class="detail">
+                        <div class="title">Airpod</div>
+                        <div class="des">
+                            <!-- lorem 50 -->
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, reiciendis suscipit nobis nulla animi, modi explicabo quod corrupti impedit illo, accusantium in eaque nam quia adipisci aut distinctio porro eligendi. Reprehenderit nostrum consequuntur ea! Accusamus architecto dolores modi ducimus facilis quas voluptatibus! Tempora ratione accusantium magnam nulla tenetur autem beatae.
+                        </div>
+                        <div class="specifications">
+                            <div>
+                                <p>Used Time</p>
+                                <p>6 hours</p>
+                            </div>
+                            <div>
+                                <p>Charging port</p>
+                                <p>Type-C</p>
+                            </div>
+                            <div>
+                                <p>Compatible</p>
+                                <p>Android</p>
+                            </div>
+                            <div>
+                                <p>Bluetooth</p>
+                                <p>5.3</p>
+                            </div>
+                            <div>
+                                <p>Controlled</p>
+                                <p>Touch</p>
+                            </div>
+                        </div>
+                        <div class="checkout">
+                            <button>ADD TO CART</button>
+                            <button>CHECKOUT</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="assets-landing/assets/img/air/img6.png">
+                    <div class="introduce">
+                        <div class="title">DESIGN SLIDER</div>
+                        <div class="topic">Airpod</div>
+                        <div class="des">
+                            <!-- 20 lorem -->
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, laborum cumque dignissimos quidem atque et eligendi aperiam voluptates beatae maxime.
+                        </div>
+                        <button class="seeMore">SEE MORE &#8599</button>
+                    </div>
+                    <div class="detail">
+                        <div class="title">Airpod GHTK</div>
+                        <div class="des">
+                            <!-- lorem 50 -->
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, reiciendis suscipit nobis nulla animi, modi explicabo quod corrupti impedit illo, accusantium in eaque nam quia adipisci aut distinctio porro eligendi. Reprehenderit nostrum consequuntur ea! Accusamus architecto dolores modi ducimus facilis quas voluptatibus! Tempora ratione accusantium magnam nulla tenetur autem beatae.
+                        </div>
+                        <div class="specifications">
+                            <div>
+                                <p>Used Time</p>
+                                <p>6 hours</p>
+                            </div>
+                            <div>
+                                <p>Charging port</p>
+                                <p>Type-C</p>
+                            </div>
+                            <div>
+                                <p>Compatible</p>
+                                <p>Android</p>
+                            </div>
+                            <div>
+                                <p>Bluetooth</p>
+                                <p>5.3</p>
+                            </div>
+                            <div>
+                                <p>Controlled</p>
+                                <p>Touch</p>
+                            </div>
+                        </div>
+                        <div class="checkout">
+                            <button>ADD TO CART</button>
+                            <button>CHECKOUT</button>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
+            <div class="arrows">
+                <button id="prev"><</button>
+                <button id="next">></button>
+                <button id="back">See All  &#8599</button>
+            </div>
         </div>
+
 
         <div class="row" data-aos="fade-left">
           <div class="col-lg-4 col-md-6 mt-5 mt-lg-0">
@@ -1289,6 +1533,7 @@
   <!-- Template Main JS File -->
   <script src="{{ asset('assets-landing/assets/js/main.js') }}"></script>
   <script src="{{ asset('assets-landing/assets/js/slider.js') }}"></script>
+    <script src="{{ asset('assets-landing/assets/js/depart.js') }}"></script>
   <script>
     function redirectToEmail() {
       var emailAddress = "himatif@jgu.ac.id"; // Ubah sesuai dengan alamat email yang dituju
