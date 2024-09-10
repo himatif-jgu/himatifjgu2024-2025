@@ -55,10 +55,10 @@
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#features">Departemen</a></li>
           <li><a class="nav-link scrollto" href="#team">Struktur</a></li>
           <li><a class="nav-link scrollto" href="#pricing">Berita</a></li>
           <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
-          <li><a class="nav-link scrollto" href="#testimonials">Alumni</a></li>
          
           <li><a class="nav-link scrollto" href="#contact">Kontak</a></li>
         
@@ -107,83 +107,360 @@
 
   <main id="main">
 
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-    <center>
-      <div class="section-title" data-aos="fade-up">
-        <h2>SeJARAH</h2>
-        <p>SEJARAH HIMATIF</p>
-      </div>
-    </center>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch" 
-          data-aos="fade-right">
-          <!-- <img src="assets/img/Foto.png" alt="" class="back"> -->
-          </div>
+   
 
-          <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5" data-aos="fade-left">
-            <h3>Sejarah Himpunan Mahasiswa Teknik Informatika</h3>
-            <p class="tulisan">Proses awal terbentuknya Himpunan Mahasiswa Teknik Informatika (HIMATIF) dimulai saat Kampus masih dikenal sebagai Sekolah Tinggi Teknologi Jakarta (STTJ). Pada masa itu, tingkat akreditasi program studi Teknik Informatika di STTJ rendah, kegiatan mahasiswa Teknik Informatika minim, dan sumber daya manusia dari mahasiswa Teknik Informatika kurang memadai. Sebagai respons terhadap kondisi tersebut, mahasiswa Teknik Informatika sepakat untuk mendirikan HIMATIF melalui Forum Musyawarah yang berlangsung dari tahun 2013 hingga akhir 2018. Forum tersebut membahas berbagai hal seperti logo, Anggaran Dasar/Anggaran Rumah Tangga (AD/ART), dan Garis Besar Haluan Organisasi (GBHO). Pada tanggal 19 Mei 2019, HIMATIF secara resmi berpisah dari Himpunan Mahasiswa Teknik Elektro (HME) untuk menjadi entitas mandiri. Proses pemisahan ini diawali dengan kegiatan Musyawarah Mahasiswa pada tanggal 27 Juni 2019. Kemudian Himpunan Mahasiswa Teknik Informatika (HIMATIF) resmi didirikan pada tanggal 18 Agustus 2019 di kampus yang berubah nama menjadi Institut Teknologi dan Kesehatan Jakarta (ITKJ)</p>
-
-            <!-- Modal Sejarah -->
-            <a href="{{ route('sejarah') }}" class="btn-buy">Selengkapnya</a>
-            {{-- <button type="button" class="btn-buy" data-toggle="modal" data-target="#sejarahModal"><i class="bi bi-arrow-right-circle"></i> --}}
-            </button>
-
-          </div>
-          
+     <!-- About Section -->
+     <section id="about" class="about section">
+      <center>
+        <div class="section-title" data-aos="fade-up">
+          <h2>SeJARAH</h2>
+          <p>SEJARAH HIMATIF</p>
         </div>
-
-      </div>
-    </section><!-- End About Section -->
-
-     <!-- ======= Pricing Section ======= -->
-     <section id="about" class="pricing">
+      </center>
       <div class="container">
 
-        <div class="section-title" data-aos="fade-up">
-          <h2>HIMATIF</h2>
-          <p>VISI DAN MISI</p>
-        </div>
+        <div class="row gy-4">
 
-        <div class="row" data-aos="fade-left">
-          
-          <div class="col-lg-5 col-md-12">
-            <div class="box" data-aos="zoom-in" data-aos-delay="100">
-             
-              <img src="{{ asset('assets-landing/assets/img/visi.png') }}" alt="">
-              <h3>VISI</h3>
-              <p>Merekontruksi nalar kritis Himpunan Mahasiswa Teknik Informatika sebagai upaya membentuk sumber daya yang bergerak secara dinamis, aktif, inovatif dan responsive terhadap tim dan kondisi sosial yang dilandasi iman dan taqwa</p>
-             
-              <div class="btn-wrap">
-                <button type="button" class="btn-buy" data-toggle="modal" data-target="#visiModal">
-                  selengkapnya
-                </button>
-              </div>
-            </div>
+          <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
+            <p class="who-we-are">Who We Are</p>
+            <h3>SEJARAH HIMATIF JGU</h3>
+            <p class="fst-italic">
+              Proses awal terbentuknya Himpunan Mahasiswa Teknik Informatika (HIMATIF) dimulai saat Kampus masih dikenal sebagai Sekolah Tinggi Teknologi Jakarta (STTJ)
+            </p>
+            <ul>
+              <li><i class="bi bi-check-circle"></i> <span>2013-2018: Forum Musyawarah mahasiswa Teknik Informatika di STTJ membahas pembentukan HIMATIF, AD/ART, dan logo.</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>19 Mei 2019: HIMATIF resmi berpisah dari HME melalui Musyawarah Mahasiswa.</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>18 Agustus 2019: HIMATIF resmi didirikan di ITKJ (Institut Teknologi dan Kesehatan Jakarta).</span></li>
+            </ul>
+            <a href="{{ route('sejarah') }}" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
           </div>
 
-          <div class="col-lg-5 col-md-12">
-            <div class="box" data-aos="zoom-in" data-aos-delay="100">
-              
-              <img src="{{ asset('assets-landing/assets/img/misi.png') }}" alt="">
-              <h3>MISI</h3>
-              <p>1. Meningkatkan hubungan erat yang sinergis dan positif antar sesama anggota himpunan Teknik Informatika maupun diluar himpunan Teknik Informatika <br><br></p>
-              
-              
-              <div class="btn-wrap">
-                <button type="button" class="btn-buy" data-toggle="modal" data-target="#misiModal">
-                  Selengkapnya
-                </button>
+          <div class="col-lg-6 about-images" data-aos="fade-up" data-aos-delay="200">
+            <div class="row gy-4">
+              <div class="col-lg-6">
+                <img src="{{ asset('assets-landing/assets/img/mubes1.jpg') }}" class="img-fluid" alt="">
+              </div>
+              <div class="col-lg-6">
+                <div class="row gy-4">
+                  <div class="col-lg-12">
+                    <img src="{{ asset('assets-landing/assets/img/mubes.jpg') }}" class="img-fluid" alt="">
+                  </div>
+                  <div class="col-lg-12">
+                    <img src="{{ asset('assets-landing/assets/img/mubes2.jpg') }}" class="img-fluid" alt="">
+                  </div>
+                </div>
               </div>
             </div>
+
           </div>
 
         </div>
 
       </div>
-    </section><!-- End Pricing Section -->
+    </section><!-- /About Section -->
+
+     <!-- Features Details Section -->
+     <section id="features-details" class="features-details section">
+      <center>
+        <div class="section-title" data-aos="fade-up">
+          <h2>Visi Misi</h2>
+          <p>Visi dan Misi</p>
+        </div>
+      </center>
+      <div class="container">
+
+        <div class="row gy-4 justify-content-between features-item">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <img src="{{ asset('assets-landing/assets/img/bph.jpg') }}" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-5 d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
+            <div class="content">
+              <h3>VISI HIMATIF</h3>
+              <p>
+                Mewujudkan HIMATIF sebagai himpunan mahasiswa yang kolaboratif, inovatif, interaktif, dan merangkul antar sesama, serta dapat menciptakan lingkungan yang nyaman, aktif, solutif, dan responsif bagi mahasiswa/i Teknik Informatika
+              </p>
+           
+            </div>
+          </div>
+
+        </div><!-- Features Item -->
+
+        <div class="row gy-4 justify-content-between features-item">
+
+          <div class="col-lg-5 d-flex align-items-center order-2 order-lg-1" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="content">
+              <h3>MISI HIMATIF</h3>
+              <ul>
+                <li>1.	Mendorong dan mempererat hubungan antara anggota himpunan maupun non-anggota melalui kegiatan bersama yang inklusif dan kolaboratif.</li>
+                <li>2.	Menyediakan lingkungan yang mendukung dan bertanggung jawab di mana setiap anggota dapat berkembang dan berkontribusi secara maksimal.</li>
+                <li>3.	Mengadakan pelatihan dan kegiatan yang dapat meningkatkan kepekaan sosial dan empati anggota terhadap isu-isu terkini dalam bidang teknologi dan masyarakat.</li>
+               
+              </ul>
+              <p></p>
+            
+            </div>
+
+          </div>
+
+          <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="200">
+            <img src="{{ asset('assets-landing/assets/img/all.jpg') }}" class="img-fluid" alt="">
+          </div>
+
+        </div><!-- Features Item -->
+
+        <div class="row gy-4 justify-content-between features-item">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <img src="{{ asset('assets-landing/assets/img/all1.jpg') }}" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-5 d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
+            <div class="content">
+              <h3>MISI HIMATIF</h3>
+              <ul>
+             <li>4.	Membangun sistem komunikasi yang efektif dan transparan untuk memastikan informasi dapat tersampaikan dengan baik kepada seluruh anggota himatif.</li>
+                <li>5.	Berkomitmen untuk menyelesaikan dan merealisasikan program-program yang telah direncanakan namun belum terealisasi.</li>
+                <li>6.	Mengembangkan jaringan kerjasama dengan himpunan mahasiswa dari universitas lain, industri, dan organisasi profesional untuk memperluas wawasan dan peluang bagi anggota himatif.</li>
+              </ul>
+            </div>
+          </div>
+
+        </div><!-- Features Item -->
+
+      </div>
+
+    </section><!-- /Features Details Section -->
+
+    <section id="features" class="features section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>DEPARTEMEN</h2>
+        <p>DEPARTEMEN IGNIS ELEVATIO</p>
+      </div><!-- End Section Title -->
+      <!-- Section Title -->
+    
+
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-lg-6">
+
+            <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
+
+              <div class="tab-pane fade active show" id="features-tab-4">
+                <img src="{{ asset('assets-landing/assets/img/kahim.jpg') }}" alt="" class="img-fluid">
+              </div><!-- End Tab Content Item -->
+
+              <div class="tab-pane fade" id="features-tab-5">
+                <img src="{{ asset('assets-landing/assets/img/sekre.jpg') }}" alt="" class="img-fluid">
+              </div><!-- End Tab Content Item -->
+
+              <div class="tab-pane fade" id="features-tab-6">
+                <img src="{{ asset('assets-landing/assets/img/bendahara.jpg') }}" alt="" class="img-fluid">
+              </div><!-- End Tab Content Item -->
+            </div>
+
+          </div>
+          <div class="col-lg-5 d-flex align-items-center">
+
+            <ul class="nav nav-tabs" data-aos="fade-up" data-aos-delay="100">
+              <li class="nav-item">
+                <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-4">
+                  <i class="bi bi-binoculars"></i>
+                  <div>
+                    <h4 class="d-none d-lg-block">KETUA & WAKIL</h4>
+                    <p>
+                      Memimpin organisasi dengan menetapkan arah strategis, mengoordinasikan kegiatan, memastikan tercapainya visi serta misi himpunan, serta membangun komunikasi yang efektif antara pengurus dan anggota.
+                    </p>
+                  </div>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-5">
+                  <i class="bi bi-box-seam"></i>
+                  <div>
+                    <h4 class="d-none d-lg-block">SEKERTARIS</h4>
+                    <p>
+                      Sekretaris bertanggung jawab untuk mengelola administrasi umum, menyimpan catatan, serta pemeliharaan arsip dan dokumen organisasi.
+                    </p>
+                  </div>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-6">
+                  <i class="bi bi-brightness-high"></i>
+                  <div>
+                    <h4 class="d-none d-lg-block">BENDAHARA</h4>
+                    <p>
+                    
+                    Bendahara bertanggung jawab untuk mengelola dan mengurus keuangan serta aset suatu organisasi.
+                    </p>
+                  </div>
+                </a>
+              </li>
+            </ul><!-- End Tab Nav -->
+
+          </div>
+
+          
+
+        </div>
+
+      </div>
+
+    </section><!-- /Features Section -->
+
+
+    <!-- Features Section -->
+    <section id="features" class="features section">
+
+      <!-- Section Title -->
+      
+
+      <div class="container">
+        <div class="row justify-content-between">
+
+          <div class="col-lg-5 d-flex align-items-center">
+
+            <ul class="nav nav-tabs" data-aos="fade-up" data-aos-delay="100">
+              <li class="nav-item">
+                <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-1">
+                  <i class="bi bi-binoculars"></i>
+                  <div>
+                    <h4 class="d-none d-lg-block">MEDIA DAN INFORMASI</h4>
+                    <p>
+                      MEDINFO merupakan departemen yang bertanggung
+                      jawab atas pengelolaan, distribusi, dan penyebaran
+                      informasi serta pengembangan media komunikasi
+                      dalam sebuah organisasi.
+                    </p>
+                  </div>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2">
+                  <i class="bi bi-box-seam"></i>
+                  <div>
+                    <h4 class="d-none d-lg-block">PEMBERDAYAAN SUMBER DAYA ANGGOTA</h4>
+                    <p>
+                      PSDA merupakan departemen untuk
+                      meningkatkan kapasitas dan potensi setiap
+                      individu dalam organisasi, dengan
+                      program-program inovatif dan berkelanjutan,
+                    </p>
+                  </div>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-3">
+                  <i class="bi bi-brightness-high"></i>
+                  <div>
+                    <h4 class="d-none d-lg-block">RISET DAN TEKNOLOGI </h4>
+                    <p>
+                      RISTEK merupakan departemen yang berfokus
+                      pada pengembangan, penelitian, dan inovasi
+                      dalam bidang teknologi informasi.
+                    </p>
+                  </div>
+                </a>
+              </li>
+            </ul><!-- End Tab Nav -->
+
+          </div>
+
+          <div class="col-lg-6">
+
+            <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
+
+              <div class="tab-pane fade active show" id="features-tab-1">
+                <img src="{{ asset('assets-landing/assets/img/medinfo.jpg') }}" alt="" class="img-fluid">
+              </div><!-- End Tab Content Item -->
+
+              <div class="tab-pane fade" id="features-tab-2">
+                <img src="{{ asset('assets-landing/assets/img/ristek.jpg') }}" alt="" class="img-fluid">
+              </div><!-- End Tab Content Item -->
+
+              <div class="tab-pane fade" id="features-tab-3">
+                <img src="{{ asset('assets-landing/assets/img/psda.jpg') }}" alt="" class="img-fluid">
+              </div><!-- End Tab Content Item -->
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Features Section -->
+
+      <!-- Features Section -->
+      <section id="features" class="features section">
+
+        <!-- Section Title -->
+      
+  
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-lg-6">
+  
+              <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
+  
+                <div class="tab-pane fade active show" id="features-tab-7">
+                  <img src="{{ asset('assets-landing/assets/img/humas.jpg') }}" alt="" class="img-fluid">
+                </div><!-- End Tab Content Item -->
+  
+                <div class="tab-pane fade" id="features-tab-8">
+                  <img src="{{ asset('assets-landing/assets/img/danus.jpg') }}" alt="" class="img-fluid">
+                </div><!-- End Tab Content Item -->
+  
+             
+              </div>
+  
+            </div>
+            <div class="col-lg-5 d-flex align-items-center">
+  
+              <ul class="nav nav-tabs" data-aos="fade-up" data-aos-delay="100">
+                <li class="nav-item">
+                  <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-7">
+                    <i class="bi bi-binoculars"></i>
+                    <div>
+                      <h4 class="d-none d-lg-block">HUBUNGAN MASYARAKAT</h4>
+                      <p>
+                        HUMAS merupakan departemen yang bertugas
+                        untuk menjaga komunikasi dan hubungan baik
+                        dengan organisasi mahasiswa baik di bidang
+                        internal maupun eksternal.
+                      </p>
+                    </div>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-8">
+                    <i class="bi bi-box-seam"></i>
+                    <div>
+                      <h4 class="d-none d-lg-block">DANA USAHA</h4>
+                      <p>
+                        DANUS merupakan departemen yang mengelola
+                        keuangan dan mengembangkan usaha untuk
+                        mendukung kegiatan HIMATIF.
+                      </p>
+                    </div>
+                  </a>
+                </li>
+               
+              </ul><!-- End Tab Nav -->
+  
+            </div>
+  
+            
+  
+          </div>
+  
+        </div>
+  
+      </section><!-- /Features Section -->
+    
 
     <!-- ======= Team Section ======= -->
     <section id="team" class="team">
@@ -191,7 +468,7 @@
 
         <div class="section-title" data-aos="fade-up">
           <h2>STRUKTUR ORGANISASI</h2>
-          <p>KABINET LAKSANA ESTUNGKARA</p>
+          <p>KABINET IGNIS ELEVATIO</p>
         </div>
 
         <div class="row" data-aos="fade-left">

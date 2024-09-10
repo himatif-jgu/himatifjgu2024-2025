@@ -110,7 +110,7 @@
           <article class="entry entry-single">
 
             <div class="entry-img">
-              <img src="{{asset('assets-landing/assets/img/feed_hima.png')}}" alt="" class="img-fluid">
+              <img src="{{asset('assets-landing/assets/img/all.jpg')}}" alt="" class="img-fluid">
             </div>
 
             <h2 class="entry-title">
