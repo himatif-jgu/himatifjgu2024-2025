@@ -2,34 +2,38 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Himatif Website - JGU</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+    <title>Himatif Website - JGU</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
 
-  <!-- Favicons -->
-  <link href=" {{ asset('assets-landing/assets/img/Logo HIMATIF 1.png') }}" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Favicons -->
+    <link href=" {{ asset('assets-landing/assets/img/Logo HIMATIF 1.png') }}" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
-  <link href=" {{ asset('assets-landing/assets/vendor/aos/aos.css') }}" rel="stylesheet">
-  <link href=" {{ asset('assets-landing/assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
-  <link href=" {{ asset('assets-landing/assets/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
-  <link href=" {{ asset('assets-landing/assets/vendor/boxicons/css/boxicons.min.css') }}" rel="stylesheet">
-  <link href=" {{ asset('assets-landing/assets/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
-  <link href=" {{ asset('assets-landing/assets/vendor/remixicon/remixicon.css') }}" rel="stylesheet">
-  <link href=" {{ asset('assets-landing/assets/vendor/swiper/swiper-bundle.min.css"') }} rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Vendor CSS Files -->
+    <link href=" {{ asset('assets-landing/assets/vendor/aos/aos.css') }}" rel="stylesheet">
+    <link href=" {{ asset('assets-landing/assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href=" {{ asset('assets-landing/assets/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
+    <link href=" {{ asset('assets-landing/assets/vendor/boxicons/css/boxicons.min.css') }}" rel="stylesheet">
+    <link href=" {{ asset('assets-landing/assets/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
+    <link href=" {{ asset('assets-landing/assets/vendor/remixicon/remixicon.css') }}" rel="stylesheet">
+    <link href=" {{ asset('assets-landing/assets/vendor/swiper/swiper-bundle.min.css"') }} rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-  <!-- Template Main CSS File -->
-  <link href="{{ asset('assets-landing/assets/css/style.css') }}" rel="stylesheet">
+    <!-- Template Main CSS File -->
+    <link href="{{ asset('assets-landing/assets/css/style.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets-landing/assets/css/welcome.css') }}" rel="stylesheet">
 
-  <!-- =======================================================
+    <!-- =======================================================
   * Template Name: Bootslander
   * Template URL: https://bootstrapmade.com/bootslander-free-bootstrap-landing-page-template/
   * Updated: Mar 17 2024 with Bootstrap v5.3.3
@@ -40,53 +44,62 @@
 
 <body>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top d-flex align-items-center header-transparent">
-    <div class="container d-flex align-items-center justify-content-between">
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+        <div class="container d-flex align-items-center justify-content-between">
 
-      <div class="logo">
-        <img src="{{ asset('assets-landing/assets/img/Logo HIMATIF 1.png') }}" alt="">
-        <h1><a href="index.html"><span>Himatif</span></a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-      </div>
+            <div class="logo">
+                <img src="{{ asset('assets-landing/assets/img/Logo HIMATIF 1.png') }}" alt="">
+                <h1><a href="index.html"><span>HIMATIF</span></a></h1>
+                <!-- Uncomment below if you prefer to use an image logo -->
+                <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+            </div>
 
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#features">Departemen</a></li>
-          <li><a class="nav-link scrollto" href="#team">Struktur</a></li>
-          <li><a class="nav-link scrollto" href="#pricing">Berita</a></li>
-          <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
-         
-          <li><a class="nav-link scrollto" href="#contact">Kontak</a></li>
-        
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+                    <li><a class="nav-link scrollto" href="#about">About</a></li>
+                    <li><a class="nav-link scrollto" href="#team">Struktur</a></li>
+                    <li><a class="nav-link scrollto" href="#pricing">Berita</a></li>
+                    <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
+                    <li><a class="nav-link scrollto" href="#testimonials">Alumni</a></li>
 
-    </div>
-  </header><!-- End Header -->
+                    <li><a class="nav-link scrollto" href="#contact">Kontak</a></li>
 
-  <!-- ======= Hero Section ======= -->
-  <section id="hero">
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav><!-- .navbar -->
 
-    <div class="container">
-      <div class="row justify-content-between">
-        <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
-          <div data-aos="zoom-out">
-            <h1>Welcome To Our Website <span>HIMATIF</span></h1>
-            <h2>Himpunan Mahasiswa Teknik Informatika 
-              <br>Jakarta Global University</h2>
-           
-          </div>
         </div>
-        <div class="col-lg-4 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="300">
-          <img src="{{ asset('assets-landing/assets/img/Desain tanpa judul (73).png') }}" class="img-fluid animated" alt="">
+    </header><!-- End Header -->
+
+    <!-- ======= Hero Section ======= -->
+    <section id="hero">
+
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
+                    <div data-aos="zoom-out">
+                        <div class="roller">
+                            <div id="slider">
+                                <div class="span">System.out.printIn</div>
+                                ("<div class="span" id="sliderValue"></div>");
+                            </div>
+                            <script src="slider.js"></script>
+                        </div>
+                        <h1>Welcome To Our Website <span>HIMATIF</span></h1>
+                        <h3>Himpunan Mahasiswa Teknik Informatika
+                            <br>Jakarta Global University
+                        </h3>
+                    </div>
+                </div>
+                <div class="col-lg-4 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="300">
+                    <img src="{{ asset('assets-landing/assets/img/Desain tanpa judul (73).png') }}"
+                        class="img-fluid animated border-bg" alt="">
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
+
 
     <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
       <defs>
@@ -107,7 +120,7 @@
 
   <main id="main">
 
-   
+
 
      <!-- About Section -->
      <section id="about" class="about section">
@@ -181,7 +194,7 @@
               <p>
                 Mewujudkan HIMATIF sebagai himpunan mahasiswa yang kolaboratif, inovatif, interaktif, dan merangkul antar sesama, serta dapat menciptakan lingkungan yang nyaman, aktif, solutif, dan responsif bagi mahasiswa/i Teknik Informatika
               </p>
-           
+
             </div>
           </div>
 
@@ -197,10 +210,10 @@
                 <li>1.	Mendorong dan mempererat hubungan antara anggota himpunan maupun non-anggota melalui kegiatan bersama yang inklusif dan kolaboratif.</li>
                 <li>2.	Menyediakan lingkungan yang mendukung dan bertanggung jawab di mana setiap anggota dapat berkembang dan berkontribusi secara maksimal.</li>
                 <li>3.	Mengadakan pelatihan dan kegiatan yang dapat meningkatkan kepekaan sosial dan empati anggota terhadap isu-isu terkini dalam bidang teknologi dan masyarakat.</li>
-               
+
               </ul>
               <p></p>
-            
+
             </div>
 
           </div>
@@ -240,7 +253,7 @@
         <p>DEPARTEMEN IGNIS ELEVATIO</p>
       </div><!-- End Section Title -->
       <!-- Section Title -->
-    
+
 
       <div class="container">
         <div class="row justify-content-between">
@@ -293,7 +306,7 @@
                   <div>
                     <h4 class="d-none d-lg-block">BENDAHARA</h4>
                     <p>
-                    
+
                     Bendahara bertanggung jawab untuk mengelola dan mengurus keuangan serta aset suatu organisasi.
                     </p>
                   </div>
@@ -303,7 +316,7 @@
 
           </div>
 
-          
+
 
         </div>
 
@@ -316,7 +329,7 @@
     <section id="features" class="features section">
 
       <!-- Section Title -->
-      
+
 
       <div class="container">
         <div class="row justify-content-between">
@@ -398,28 +411,28 @@
       <section id="features" class="features section">
 
         <!-- Section Title -->
-      
-  
+
+
         <div class="container">
           <div class="row justify-content-between">
             <div class="col-lg-6">
-  
+
               <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
-  
+
                 <div class="tab-pane fade active show" id="features-tab-7">
                   <img src="{{ asset('assets-landing/assets/img/humas.jpg') }}" alt="" class="img-fluid">
                 </div><!-- End Tab Content Item -->
-  
+
                 <div class="tab-pane fade" id="features-tab-8">
                   <img src="{{ asset('assets-landing/assets/img/danus.jpg') }}" alt="" class="img-fluid">
                 </div><!-- End Tab Content Item -->
-  
-             
+
+
               </div>
-  
+
             </div>
             <div class="col-lg-5 d-flex align-items-center">
-  
+
               <ul class="nav nav-tabs" data-aos="fade-up" data-aos-delay="100">
                 <li class="nav-item">
                   <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-7">
@@ -448,19 +461,19 @@
                     </div>
                   </a>
                 </li>
-               
+
               </ul><!-- End Tab Nav -->
-  
+
             </div>
-  
-            
-  
+
+
+
           </div>
-  
+
         </div>
-  
+
       </section><!-- /Features Section -->
-    
+
 
     <!-- ======= Team Section ======= -->
     <section id="team" class="team">
@@ -481,7 +494,7 @@
                 <span>Ketua, Wakil, Seketaris, Bendahara</span>
                 <div class="social">
                   <button type="button" class="btn-buy" data-toggle="modal" data-target="#sekreModal"><i class="bi bi-arrow-right-circle"></i></button>
-                  
+
                 </div>
               </div>
             </div>
@@ -581,7 +594,7 @@
           @endforeach
           <div class="btn-wrap">
             <a href="{{ route('blog') }}" class="btn-buy">Selengkapnya</a>
-         
+
           </div>
 
         </div>
@@ -590,7 +603,7 @@
 
     </section><!-- End Recent Blog Posts Section -->
 
-  
+
 
     <!-- ======= Gallery Section ======= -->
      <!-- ======= Portfolio Section ======= -->
@@ -602,11 +615,11 @@
           <p>Gallery Himatif</p>
         </div>
 
-     
+
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
           @foreach ($gallery as $gl)
-              
+
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-img"><img src="{{ asset('storage/'. $gl->image) }}" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
@@ -619,11 +632,11 @@
 
           <div class="btn-wrap">
             <a href="{{ route('gallery-landing') }}" class="btn-buy">Selengkapnya</a>
-         
-          </div>
-          
 
-         
+          </div>
+
+
+
 
         </div>
 
@@ -655,21 +668,21 @@
       </div>
       @endforeach
 
-      
-    
+
+
 
       <div class="btn-wrap">
         <a href="{{ route('alumni-landing') }}" class="btn-buy">Selengkapnya</a>
-     
+
       </div>
     </div>
- 
+
   </div>
-  
+
 </section><!-- End Team Section -->
 
-   
-   
+
+
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
@@ -722,7 +735,7 @@
                 <div class="form-group mt-3">
                     <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
                 </div>
-              
+
                 <div class="text-center"><button type="submit">Send Message</button></div>
             </form>
         </div>
@@ -764,7 +777,7 @@
               <li><i class="bx bx-chevron-right"></i> <a href="#about">About </a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#team">Struktur</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#pricing">Berita</a></li>
-             
+
             </ul>
           </div>
 
@@ -989,7 +1002,7 @@
                 <p>Anggota Departemen</p>
               </div>
             </div>
-           
+
           </div>
           <a class="carousel-control-prev" href="#carouselInfokom" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -1053,7 +1066,7 @@
                 <p>Anggota Departemen</p>
               </div>
             </div>
-           
+
           </div>
           <a class="carousel-control-prev" href="#carouselKastrat" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -1124,7 +1137,7 @@
                 <p>Anggota Departemen</p>
               </div>
             </div>
-           
+
           </div>
           <a class="carousel-control-prev" href="#carouselPemtek" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -1180,7 +1193,7 @@
                 <p>Anggota Departemen</p>
               </div>
             </div>
-           
+
           </div>
           <a class="carousel-control-prev" href="#carouselHumas" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -1244,7 +1257,7 @@
                 <p>Anggota Departemen</p>
               </div>
             </div>
-           
+
           </div>
           <a class="carousel-control-prev" href="#carouselDanus" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -1260,7 +1273,7 @@
     </div>
   </div>
 </div>
-  
+
 
   <!-- Vendor JS Files -->
   <script src="{{asset('assets-landing/assets/vendor/purecounter/purecounter_vanilla.js')}}"></script>
@@ -1275,6 +1288,7 @@
 
   <!-- Template Main JS File -->
   <script src="{{ asset('assets-landing/assets/js/main.js') }}"></script>
+  <script src="{{ asset('assets-landing/assets/js/slider.js') }}"></script>
   <script>
     function redirectToEmail() {
       var emailAddress = "himatif@jgu.ac.id"; // Ubah sesuai dengan alamat email yang dituju
@@ -1291,16 +1305,16 @@
     var email = document.getElementById("email").value;
     var subject = document.getElementById("subject").value;
     var message = document.getElementById("message").value;
-  
+
     // Membuat pesan email dengan informasi yang diberikan
-    var mailtoLink = "mailto:himatif@jgu.ac.id" + 
-      "?subject=" + encodeURI(subject) + 
-      "&body=" + 
-      "Name: " + encodeURI(name) + "\n" + 
-      "Email: " + encodeURI(email) + "\n" + 
-      "Subject: " + encodeURI(subject) + "\n" + 
+    var mailtoLink = "mailto:himatif@jgu.ac.id" +
+      "?subject=" + encodeURI(subject) +
+      "&body=" +
+      "Name: " + encodeURI(name) + "\n" +
+      "Email: " + encodeURI(email) + "\n" +
+      "Subject: " + encodeURI(subject) + "\n" +
       "Message: " + encodeURI(message);
-  
+
     // Mengarahkan pengguna ke aplikasi email default dengan pesan yang sudah dibuat
     window.location.href = mailtoLink;
     return false;

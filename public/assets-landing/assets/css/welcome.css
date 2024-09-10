@@ -1,0 +1,56 @@
+.roller {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0 auto;
+    color: white;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #slider {
+    width: 600px;
+    display: flex;
+    gap: 5px;
+    font-size: 20px;
+  }
+
+  #sliderValue {
+    display: flex;
+    color: #bbc3af;
+      font-weight: 700;
+  }
+
+  .start {
+    opacity: 0;
+  }
+
+  .animation {
+    animation: fade .3s forwards;
+  }
+
+
+  @keyframes fade {
+    0%{
+      opacity: 0;
+      transform: translateY(-20px) rotateZ(35deg);
+    }
+    100%{
+      opacity: 1;
+      transform: translateY(0px) rotateZ(0deg);
+    }
+  }
+
+  .holder-animation {
+    animation: holder 4s;
+  }
+
+  @keyframes holder {
+    0%{
+      opacity: 1;
+    }
+    95%{
+      opacity: 1;
+    }
+    100%{
+      opacity: 0;
+    }
+  }
