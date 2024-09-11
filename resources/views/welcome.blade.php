@@ -249,13 +249,13 @@
     </section><!-- /Features Details Section -->
 
     <section id="features" class="features section">
-      <div class="container section-title" data-aos="fade-up">
+      {{-- <div class="container section-title" data-aos="fade-up">
         <h2>DEPARTEMEN</h2>
         <p>DEPARTEMEN IGNIS ELEVATIO</p>
-      </div><!-- End Section Title -->
+      </div><!-- End Section Title --> --}}
       <!-- Section Title -->
 
-
+{{--
       <div class="container">
         <div class="row justify-content-between">
           <div class="col-lg-6">
@@ -404,9 +404,9 @@
 
         </div>
 
-      </div>
+      </div> --}}
 
-    </section><!-- /Features Section -->
+    {{-- </section><!-- /Features Section -->
 
       <!-- Features Section -->
       <section id="features" class="features section">
@@ -473,17 +473,17 @@
 
         </div>
 
-      </section><!-- /Features Section -->
+      </section><!-- /Features Section --> --}}
 
 
     <!-- ======= Team Section ======= -->
     <section id="team" class="team">
       <div class="container">
 
-        <div class="section-title" data-aos="fade-up">
+        {{-- <div class="section-title" data-aos="fade-up">
           <h2>STRUKTUR ORGANISASI</h2>
           <p>KABINET IGNIS ELEVATIO</p>
-        </div>
+        </div> --}}
 
         <div class="carousel">
             <div class="list">
