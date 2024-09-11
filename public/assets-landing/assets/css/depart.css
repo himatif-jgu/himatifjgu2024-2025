@@ -58,7 +58,7 @@
 .carousel .list .item img {
     width: 50%;
     position: absolute;
-    right: 0;
+    right: -25%;
     top: 50%;
     transform: translateY(-50%);
     transition: right 1.5s;
@@ -78,20 +78,22 @@
     transition: opacity 0.5s;
 }
 .carousel .list .item .introduce .title {
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: 500;
     line-height: 1em;
 }
 .carousel .list .item .introduce .topic {
     font-size: 4em;
     font-weight: 500;
+    color: #555;
+    line-height: 1em;
 }
 .carousel .list .item .introduce .des {
     font-size: small;
     color: #5559;
 }
 .carousel .list .item .introduce .seeMore {
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     margin-top: 1.2em;
     padding: 5px 0;
     border: none;
@@ -250,7 +252,7 @@
     pointer-events: auto;
 }
 .carousel.showDetail .list .item:nth-child(2) .detail .title {
-    font-size: 4em;
+    font-size: 3em;
 }
 .carousel.showDetail .list .item:nth-child(2) .detail .specifications {
     display: flex;
@@ -274,7 +276,7 @@
     font-weight: bold;
 }
 .carousel.carousel.showDetail .list .item:nth-child(2) .checkout button {
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     background-color: transparent;
     border: 1px solid #5555;
     margin-left: 5px;
@@ -339,7 +341,7 @@
     transform: translateX(-50%);
     border: none;
     border-bottom: 1px solid #555;
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     font-weight: bold;
     letter-spacing: 3px;
     background-color: transparent;

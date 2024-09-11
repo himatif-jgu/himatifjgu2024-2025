@@ -488,23 +488,21 @@
         <div class="carousel">
             <div class="list">
                 <div class="item">
-                    <img src="assets-landing/assets/img/air/img1.png">
+                    <img src="assets-landing/assets/img/air/img9.png">
                     <div class="introduce">
-                        <div class="title">DESIGN SLIDER</div>
-                        <div class="topic">Airpod</div>
+                        <div class="title">DEPARTMENT</div>
+                        <div class="topic"><b>DANUS</b></div>
                         <div class="des">
-                            <!-- 20 lorem -->
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, laborum cumque dignissimos quidem atque et eligendi aperiam voluptates beatae maxime.
+                            Sarah Ardelia - Devina Muhhamad A.
                         </div>
                         <button class="seeMore">SEE MORE &#8599</button>
                     </div>
                     <div class="detail">
-                        <div class="title">Airpod GHTK</div>
+                        <div class="title"><b>DANUS</b></div>
                         <div class="des">
-                            <!-- lorem 50 -->
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, reiciendis suscipit nobis nulla animi, modi explicabo quod corrupti impedit illo, accusantium in eaque nam quia adipisci aut distinctio porro eligendi. Reprehenderit nostrum consequuntur ea! Accusamus architecto dolores modi ducimus facilis quas voluptatibus! Tempora ratione accusantium magnam nulla tenetur autem beatae.
+                            DANUS merupakan departemen yang mengelola keuangan dan mengembangkan usaha untuk mendukung kegiatan HIMATIF.
                         </div>
-                        <div class="specifications">
+                        {{-- <div class="specifications">
                             <div>
                                 <p>Used Time</p>
                                 <p>6 hours</p>
@@ -525,216 +523,120 @@
                                 <p>Controlled</p>
                                 <p>Touch</p>
                             </div>
-                        </div>
-                        <div class="checkout">
+                        </div> --}}
+                        {{-- <div class="checkout">
                             <button>ADD TO CART</button>
                             <button>CHECKOUT</button>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
 
                 <div class="item">
                     <img src="assets-landing/assets/img/air/img2.png">
                     <div class="introduce">
-                        <div class="title">DESIGN SLIDER</div>
-                        <div class="topic">Airpod</div>
+                        {{-- <div class="title">DEPARTMENT</div> --}}
+                        <div class="topic"><strong>HEAD OF HIMATIF</strong></div>
                         <div class="des">
-                            <!-- 20 lorem -->
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, laborum cumque dignissimos quidem atque et eligendi aperiam voluptates beatae maxime.
+                            Yasmin Helmy - M.Raihan Alfaiz
                         </div>
                         <button class="seeMore">SEE MORE &#8599</button>
                     </div>
                     <div class="detail">
-                        <div class="title">Airpod GHTK</div>
+                        <div class="title"><b>HEAD OF</b> HIMATIF</div>
                         <div class="des">
                             <!-- lorem 50 -->
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, reiciendis suscipit nobis nulla animi, modi explicabo quod corrupti impedit illo, accusantium in eaque nam quia adipisci aut distinctio porro eligendi. Reprehenderit nostrum consequuntur ea! Accusamus architecto dolores modi ducimus facilis quas voluptatibus! Tempora ratione accusantium magnam nulla tenetur autem beatae.
+                            Memimpin organisasi dengan menetapkan arah strategis, mengoordinasikan kegiatan, memastikan tercapainya visi serta misi himpunan, serta membangun komunikasi yang efektif antara pengurus dan anggota.
                         </div>
-                        <div class="specifications">
-                            <div>
-                                <p>Used Time</p>
-                                <p>6 hours</p>
-                            </div>
-                            <div>
-                                <p>Charging port</p>
-                                <p>Type-C</p>
-                            </div>
-                            <div>
-                                <p>Compatible</p>
-                                <p>Android</p>
-                            </div>
-                            <div>
-                                <p>Bluetooth</p>
-                                <p>5.3</p>
-                            </div>
-                            <div>
-                                <p>Controlled</p>
-                                <p>Touch</p>
-                            </div>
-                        </div>
-                        <div class="checkout">
+                        {{-- <div class="checkout">
                             <button>ADD TO CART</button>
                             <button>CHECKOUT</button>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
 
                 <div class="item">
                     <img src="assets-landing/assets/img/air/img3.png">
                     <div class="introduce">
-                        <div class="title">DESIGN SLIDER</div>
-                        <div class="topic">Airpod</div>
+                        {{-- <div class="title">DEPARTMENT</div> --}}
+                        <div class="topic"><b>TREASURER</b></div>
                         <div class="des">
                             <!-- 20 lorem -->
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, laborum cumque dignissimos quidem atque et eligendi aperiam voluptates beatae maxime.
+                            Adam Rinaldi - Della Nur Cahya Putri
                         </div>
                         <button class="seeMore">SEE MORE &#8599</button>
                     </div>
                     <div class="detail">
-                        <div class="title">Airpod GHTK</div>
+                        <div class="title"><b>TREASURER</b></div>
                         <div class="des">
-                            <!-- lorem 50 -->
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, reiciendis suscipit nobis nulla animi, modi explicabo quod corrupti impedit illo, accusantium in eaque nam quia adipisci aut distinctio porro eligendi. Reprehenderit nostrum consequuntur ea! Accusamus architecto dolores modi ducimus facilis quas voluptatibus! Tempora ratione accusantium magnam nulla tenetur autem beatae.
+                            Bendahara bertanggung jawab untuk mengelola dan mengurus keuangan serta aset suatu organisasi.
                         </div>
-                        <div class="specifications">
-                            <div>
-                                <p>Used Time</p>
-                                <p>6 hours</p>
-                            </div>
-                            <div>
-                                <p>Charging port</p>
-                                <p>Type-C</p>
-                            </div>
-                            <div>
-                                <p>Compatible</p>
-                                <p>Android</p>
-                            </div>
-                            <div>
-                                <p>Bluetooth</p>
-                                <p>5.3</p>
-                            </div>
-                            <div>
-                                <p>Controlled</p>
-                                <p>Touch</p>
-                            </div>
-                        </div>
-                        <div class="checkout">
+                        {{-- <div class="checkout">
                             <button>ADD TO CART</button>
                             <button>CHECKOUT</button>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
 
                 <div class="item">
                     <img src="assets-landing/assets/img/air/img4.png">
                     <div class="introduce">
-                        <div class="title">DESIGN SLIDER</div>
-                        <div class="topic">Airpod</div>
+                        {{-- <div class="title">DEPARTMENT</div> --}}
+                        <div class="topic"><b>SECRETARY</b></div>
                         <div class="des">
-                            <!-- 20 lorem -->
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, laborum cumque dignissimos quidem atque et eligendi aperiam voluptates beatae maxime.
+                            Ananda Dwi Cynta - Nabilah Rasyiqah
                         </div>
                         <button class="seeMore">SEE MORE &#8599</button>
                     </div>
                     <div class="detail">
-                        <div class="title">Airpod GHTK</div>
+                        <div class="title"><b>SECRETARY</b></div>
                         <div class="des">
-                            <!-- lorem 50 -->
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, reiciendis suscipit nobis nulla animi, modi explicabo quod corrupti impedit illo, accusantium in eaque nam quia adipisci aut distinctio porro eligendi. Reprehenderit nostrum consequuntur ea! Accusamus architecto dolores modi ducimus facilis quas voluptatibus! Tempora ratione accusantium magnam nulla tenetur autem beatae.
+                            Bendahara bertanggung jawab untuk mengelola dan mengurus keuangan serta aset suatu organisasi.
                         </div>
-                        <div class="specifications">
-                            <div>
-                                <p>Used Time</p>
-                                <p>6 hours</p>
-                            </div>
-                            <div>
-                                <p>Charging port</p>
-                                <p>Type-C</p>
-                            </div>
-                            <div>
-                                <p>Compatible</p>
-                                <p>Android</p>
-                            </div>
-                            <div>
-                                <p>Bluetooth</p>
-                                <p>5.3</p>
-                            </div>
-                            <div>
-                                <p>Controlled</p>
-                                <p>Touch</p>
-                            </div>
-                        </div>
-                        <div class="checkout">
+                        {{-- <div class="checkout">
                             <button>ADD TO CART</button>
                             <button>CHECKOUT</button>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
 
                 <div class="item">
                     <img src="assets-landing/assets/img/air/img5.png">
                     <div class="introduce">
-                        <div class="title">DESIGN SLIDER</div>
-                        <div class="topic">Airpod</div>
+                        <div class="title">DEPARTMENT</div>
+                        <div class="topic"><b>MEDINFO</b></div>
                         <div class="des">
-                            <!-- 20 lorem -->
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, laborum cumque dignissimos quidem atque et eligendi aperiam voluptates beatae maxime.
+                           M. Fadli Taptajani - Nakhlah Wafa A.
                         </div>
                         <button class="seeMore">SEE MORE &#8599</button>
                     </div>
                     <div class="detail">
-                        <div class="title">Airpod</div>
+                        <div class="title"><b>MEDINFO</b></div>
                         <div class="des">
-                            <!-- lorem 50 -->
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, reiciendis suscipit nobis nulla animi, modi explicabo quod corrupti impedit illo, accusantium in eaque nam quia adipisci aut distinctio porro eligendi. Reprehenderit nostrum consequuntur ea! Accusamus architecto dolores modi ducimus facilis quas voluptatibus! Tempora ratione accusantium magnam nulla tenetur autem beatae.
+                            MEDINFO merupakan departemen yang bertanggung jawab atas pengelolaan, distribusi, dan penyebaran informasi serta pengembangan media komunikasi dalam sebuah organisasi.
                         </div>
-                        <div class="specifications">
-                            <div>
-                                <p>Used Time</p>
-                                <p>6 hours</p>
-                            </div>
-                            <div>
-                                <p>Charging port</p>
-                                <p>Type-C</p>
-                            </div>
-                            <div>
-                                <p>Compatible</p>
-                                <p>Android</p>
-                            </div>
-                            <div>
-                                <p>Bluetooth</p>
-                                <p>5.3</p>
-                            </div>
-                            <div>
-                                <p>Controlled</p>
-                                <p>Touch</p>
-                            </div>
-                        </div>
-                        <div class="checkout">
+                        {{-- <div class="checkout">
                             <button>ADD TO CART</button>
                             <button>CHECKOUT</button>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
 
                 <div class="item">
                     <img src="assets-landing/assets/img/air/img6.png">
                     <div class="introduce">
-                        <div class="title">DESIGN SLIDER</div>
-                        <div class="topic">Airpod</div>
+                        <div class="title">DEPARTMENT</div>
+                        <div class="topic"><b>RISTEK</b></div>
                         <div class="des">
-                            <!-- 20 lorem -->
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, laborum cumque dignissimos quidem atque et eligendi aperiam voluptates beatae maxime.
+                           Yosua Immanuel H.K - Zidan Azzahra
                         </div>
                         <button class="seeMore">SEE MORE &#8599</button>
                     </div>
                     <div class="detail">
-                        <div class="title">Airpod GHTK</div>
+                        <div class="title"><b>RISTEK</b></div>
                         <div class="des">
-                            <!-- lorem 50 -->
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, reiciendis suscipit nobis nulla animi, modi explicabo quod corrupti impedit illo, accusantium in eaque nam quia adipisci aut distinctio porro eligendi. Reprehenderit nostrum consequuntur ea! Accusamus architecto dolores modi ducimus facilis quas voluptatibus! Tempora ratione accusantium magnam nulla tenetur autem beatae.
+                            RISTEK merupakan departemen yang berfokus pada pengembangan, penelitian, dan inovasi dalam bidang teknologi informasi.
                         </div>
-                        <div class="specifications">
+                        {{-- <div class="specifications">
                             <div>
                                 <p>Used Time</p>
                                 <p>6 hours</p>
@@ -755,14 +657,62 @@
                                 <p>Controlled</p>
                                 <p>Touch</p>
                             </div>
-                        </div>
-                        <div class="checkout">
+                        </div> --}}
+                        {{-- <div class="checkout">
                             <button>ADD TO CART</button>
                             <button>CHECKOUT</button>
+                        </div> --}}
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="assets-landing/assets/img/air/img7.png">
+                    <div class="introduce">
+                        <div class="title">DEPARTMENT</div>
+                        <div class="topic"><b>PSDA</b></div>
+                        <div class="des">
+                           Alvando Lefrand I.L - Fadly Attoriq
                         </div>
+                        <button class="seeMore">SEE MORE &#8599</button>
+                    </div>
+                    <div class="detail">
+                        <div class="title"><b>PSDA</b></div>
+                        <div class="des">
+                            PSDA merupakan departemen untuk meningkatkan kapasitas dan potensi setiap individu dalam organisasi, dengan program-program inovatif dan berkelanjutan.
+                        </div>
+                        {{-- <div class="checkout">
+                            <button>ADD TO CART</button>
+                            <button>CHECKOUT</button>
+                        </div> --}}
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="assets-landing/assets/img/air/img8.png">
+                    <div class="introduce">
+                        <div class="title">DEPARTMENT</div>
+                        <div class="topic"><b>HUMAS</b></div>
+                        <div class="des">
+                           Radiva Rizky - Muhammad Afriqi
+                        </div>
+                        <button class="seeMore">SEE MORE &#8599</button>
+                    </div>
+                    <div class="detail">
+                        <div class="title"><b>PSDA</b></div>
+                        <div class="des">
+                            HUMAS merupakan departemen yang bertugas untuk menjaga komunikasi dan hubungan baik dengan organisasi mahasiswa baik di bidang internal maupun eksternal.
+                        </div>
+                        {{-- <div class="checkout">
+                            <button>ADD TO CART</button>
+                            <button>CHECKOUT</button>
+                        </div> --}}
                     </div>
                 </div>
             </div>
+
+
+
+
+
             <div class="arrows">
                 <button id="prev"><</button>
                 <button id="next">></button>
@@ -771,7 +721,7 @@
         </div>
 
 
-        <div class="row" data-aos="fade-left">
+        {{-- <div class="row" data-aos="fade-left">
           <div class="col-lg-4 col-md-6 mt-5 mt-lg-0">
             <div class="member" data-aos="zoom-in" data-aos-delay="400">
               <div class="pic"><img src="{{ asset('assets-landing/assets/img/team/pemtek.png') }}" class="img-fluid" alt=""></div>
@@ -810,7 +760,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> --}}
 
       </div>
     </section><!-- End Team Section -->
