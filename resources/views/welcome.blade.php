@@ -25,7 +25,7 @@
     <link href=" {{ asset('assets-landing/assets/vendor/boxicons/css/boxicons.min.css') }}" rel="stylesheet">
     <link href=" {{ asset('assets-landing/assets/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
     <link href=" {{ asset('assets-landing/assets/vendor/remixicon/remixicon.css') }}" rel="stylesheet">
-    <link href=" {{ asset('assets-landing/assets/vendor/swiper/swiper-bundle.min.css"') }} rel="stylesheet">
+    <link href=" {{ asset('assets-landing/assets/vendor/swiper/swiper-bundle.min.css"') }} rel=" stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
@@ -160,18 +160,17 @@
                     <div class="col-lg-6 about-images" data-aos="fade-up" data-aos-delay="200">
                         <div class="row gy-4">
                             <div class="col-lg-6">
-                                <img src="{{ asset('assets-landing/assets/img/mubes1.jpg') }}" class="img-fluid"
-                                    alt="">
+                                <img src="{{ asset('assets-landing/assets/img/mubes1.jpg') }}" class="img-fluid" alt="">
                             </div>
                             <div class="col-lg-6">
                                 <div class="row gy-4">
                                     <div class="col-lg-12">
-                                        <img src="{{ asset('assets-landing/assets/img/mubes.jpg') }}"
-                                            class="img-fluid" alt="">
+                                        <img src="{{ asset('assets-landing/assets/img/mubes.jpg') }}" class="img-fluid"
+                                            alt="">
                                     </div>
                                     <div class="col-lg-12">
-                                        <img src="{{ asset('assets-landing/assets/img/mubes2.jpg') }}"
-                                            class="img-fluid" alt="">
+                                        <img src="{{ asset('assets-landing/assets/img/mubes2.jpg') }}" class="img-fluid"
+                                            alt="">
                                     </div>
                                 </div>
                             </div>
@@ -182,18 +181,13 @@
                 </div>
 
             </div>
-        </section><!-- /About Section -->
+        </section>
+        <!-- /About Section -->
 
         <!-- Features Details Section -->
         <section id="features-details" class="features-details section">
-            {{-- <center>
-            <div class="section-title" data-aos="fade-up">
-                <h2>Visi Misi</h2>
-                <p>Visi dan Misi</p>
-            </div>
-        </center> --}}
-            <div class="row">
-                <div class="col-md-6">
+            <center>
+                <div class="container-vm">
                     <div class="card">
                         <div class="imgBx">
                             <img src="{{ asset('assets-landing/assets/img/misi.jpg') }}">
@@ -202,16 +196,12 @@
                             <h2><b>VISI <span>HIMATIF</span></b></h2>
                             <br>
                             <h5>Mewujudkan HIMATIF sebagai himpunan mahasiswa yang kolaboratif, inovatif, interaktif,
-                                dan
-                                merangkul antar sesama, serta dapat menciptakan lingkungan yang nyaman, aktif, solutif,
-                                dan
-                                responsif bagi mahasiswa/i Teknik Informatika</h5>
+                                dan merangkul antar sesama, serta dapat menciptakan lingkungan yang nyaman, aktif,
+                                solutif,
+                                dan responsif bagi mahasiswa/i Teknik Informatika.</h5>
                         </div>
                     </div>
-                </div>
 
-
-                <div class="col-md-6">
                     <div class="card">
                         <div class="imgBx">
                             <img src="{{ asset('assets-landing/assets/img/visi.jpg') }}">
@@ -222,8 +212,7 @@
                                 <li>Mendorong dan mempererat hubungan antara anggota himpunan maupun non-anggota melalui
                                     kegiatan bersama yang inklusif dan kolaboratif.</li>
                                 <li>Menyediakan lingkungan yang mendukung dan bertanggung jawab di mana setiap anggota
-                                    dapat
-                                    berkembang dan berkontribusi secara maksimal.</li>
+                                    dapat berkembang dan berkontribusi secara maksimal.</li>
                             </ul>
                             <div class="btn-wrap">
                                 <button type="button" class="btn-buy" data-toggle="modal" data-target="#misiModal">
@@ -233,8 +222,9 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </center>
         </section>
+
 
         <section id="features-details" class="features-details section">
             {{-- <center>
@@ -293,147 +283,152 @@
 
               <div class="tab-pane fade active show" id="features-tab-4">
                 <img src="{{ asset('assets-landing/assets/img/kahim.jpg') }}" alt="" class="img-fluid">
-              </div><!-- End Tab Content Item -->
+            </div><!-- End Tab Content Item -->
 
-              <div class="tab-pane fade" id="features-tab-5">
+            <div class="tab-pane fade" id="features-tab-5">
                 <img src="{{ asset('assets-landing/assets/img/sekre.jpg') }}" alt="" class="img-fluid">
-              </div><!-- End Tab Content Item -->
+            </div><!-- End Tab Content Item -->
 
-              <div class="tab-pane fade" id="features-tab-6">
+            <div class="tab-pane fade" id="features-tab-6">
                 <img src="{{ asset('assets-landing/assets/img/bendahara.jpg') }}" alt="" class="img-fluid">
-              </div><!-- End Tab Content Item -->
+            </div><!-- End Tab Content Item -->
             </div>
 
-          </div>
-          <div class="col-lg-5 d-flex align-items-center">
+            </div>
+            <div class="col-lg-5 d-flex align-items-center">
 
-            <ul class="nav nav-tabs" data-aos="fade-up" data-aos-delay="100">
-              <li class="nav-item">
-                <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-4">
-                  <i class="bi bi-binoculars"></i>
-                  <div>
-                    <h4 class="d-none d-lg-block">KETUA & WAKIL</h4>
-                    <p>
-                      Memimpin organisasi dengan menetapkan arah strategis, mengoordinasikan kegiatan, memastikan tercapainya visi serta misi himpunan, serta membangun komunikasi yang efektif antara pengurus dan anggota.
-                    </p>
-                  </div>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-5">
-                  <i class="bi bi-box-seam"></i>
-                  <div>
-                    <h4 class="d-none d-lg-block">SEKERTARIS</h4>
-                    <p>
-                      Sekretaris bertanggung jawab untuk mengelola administrasi umum, menyimpan catatan, serta pemeliharaan arsip dan dokumen organisasi.
-                    </p>
-                  </div>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-6">
-                  <i class="bi bi-brightness-high"></i>
-                  <div>
-                    <h4 class="d-none d-lg-block">BENDAHARA</h4>
-                    <p>
+                <ul class="nav nav-tabs" data-aos="fade-up" data-aos-delay="100">
+                    <li class="nav-item">
+                        <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-4">
+                            <i class="bi bi-binoculars"></i>
+                            <div>
+                                <h4 class="d-none d-lg-block">KETUA & WAKIL</h4>
+                                <p>
+                                    Memimpin organisasi dengan menetapkan arah strategis, mengoordinasikan kegiatan,
+                                    memastikan tercapainya visi serta misi himpunan, serta membangun komunikasi yang
+                                    efektif antara pengurus dan anggota.
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-5">
+                            <i class="bi bi-box-seam"></i>
+                            <div>
+                                <h4 class="d-none d-lg-block">SEKERTARIS</h4>
+                                <p>
+                                    Sekretaris bertanggung jawab untuk mengelola administrasi umum, menyimpan catatan,
+                                    serta pemeliharaan arsip dan dokumen organisasi.
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-6">
+                            <i class="bi bi-brightness-high"></i>
+                            <div>
+                                <h4 class="d-none d-lg-block">BENDAHARA</h4>
+                                <p>
 
-                    Bendahara bertanggung jawab untuk mengelola dan mengurus keuangan serta aset suatu organisasi.
-                    </p>
-                  </div>
-                </a>
-              </li>
-            </ul><!-- End Tab Nav -->
+                                    Bendahara bertanggung jawab untuk mengelola dan mengurus keuangan serta aset suatu
+                                    organisasi.
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                </ul><!-- End Tab Nav -->
 
-          </div>
-
-
-
-        </div>
-
-      </div>
-
-    </section><!-- /Features Section -->
-
-
-    <!-- Features Section -->
-    <section id="features" class="features section">
-
-      <!-- Section Title -->
-
-
-      <div class="container">
-        <div class="row justify-content-between">
-
-          <div class="col-lg-5 d-flex align-items-center">
-
-            <ul class="nav nav-tabs" data-aos="fade-up" data-aos-delay="100">
-              <li class="nav-item">
-                <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-1">
-                  <i class="bi bi-binoculars"></i>
-                  <div>
-                    <h4 class="d-none d-lg-block">MEDIA DAN INFORMASI</h4>
-                    <p>
-                      MEDINFO merupakan departemen yang bertanggung
-                      jawab atas pengelolaan, distribusi, dan penyebaran
-                      informasi serta pengembangan media komunikasi
-                      dalam sebuah organisasi.
-                    </p>
-                  </div>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2">
-                  <i class="bi bi-box-seam"></i>
-                  <div>
-                    <h4 class="d-none d-lg-block">PEMBERDAYAAN SUMBER DAYA ANGGOTA</h4>
-                    <p>
-                      PSDA merupakan departemen untuk
-                      meningkatkan kapasitas dan potensi setiap
-                      individu dalam organisasi, dengan
-                      program-program inovatif dan berkelanjutan,
-                    </p>
-                  </div>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-3">
-                  <i class="bi bi-brightness-high"></i>
-                  <div>
-                    <h4 class="d-none d-lg-block">RISET DAN TEKNOLOGI </h4>
-                    <p>
-                      RISTEK merupakan departemen yang berfokus
-                      pada pengembangan, penelitian, dan inovasi
-                      dalam bidang teknologi informasi.
-                    </p>
-                  </div>
-                </a>
-              </li>
-            </ul><!-- End Tab Nav -->
-
-          </div>
-
-          <div class="col-lg-6">
-
-            <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
-
-              <div class="tab-pane fade active show" id="features-tab-1">
-                <img src="{{ asset('assets-landing/assets/img/medinfo.jpg') }}" alt="" class="img-fluid">
-              </div><!-- End Tab Content Item -->
-
-              <div class="tab-pane fade" id="features-tab-2">
-                <img src="{{ asset('assets-landing/assets/img/ristek.jpg') }}" alt="" class="img-fluid">
-              </div><!-- End Tab Content Item -->
-
-              <div class="tab-pane fade" id="features-tab-3">
-                <img src="{{ asset('assets-landing/assets/img/psda.jpg') }}" alt="" class="img-fluid">
-              </div><!-- End Tab Content Item -->
             </div>
 
-          </div>
 
-        </div>
 
-      </div> --}}
+            </div>
+
+            </div>
+
+        </section><!-- /Features Section -->
+
+
+        <!-- Features Section -->
+        <section id="features" class="features section">
+
+            <!-- Section Title -->
+
+
+            <div class="container">
+                <div class="row justify-content-between">
+
+                    <div class="col-lg-5 d-flex align-items-center">
+
+                        <ul class="nav nav-tabs" data-aos="fade-up" data-aos-delay="100">
+                            <li class="nav-item">
+                                <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-1">
+                                    <i class="bi bi-binoculars"></i>
+                                    <div>
+                                        <h4 class="d-none d-lg-block">MEDIA DAN INFORMASI</h4>
+                                        <p>
+                                            MEDINFO merupakan departemen yang bertanggung
+                                            jawab atas pengelolaan, distribusi, dan penyebaran
+                                            informasi serta pengembangan media komunikasi
+                                            dalam sebuah organisasi.
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2">
+                                    <i class="bi bi-box-seam"></i>
+                                    <div>
+                                        <h4 class="d-none d-lg-block">PEMBERDAYAAN SUMBER DAYA ANGGOTA</h4>
+                                        <p>
+                                            PSDA merupakan departemen untuk
+                                            meningkatkan kapasitas dan potensi setiap
+                                            individu dalam organisasi, dengan
+                                            program-program inovatif dan berkelanjutan,
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-3">
+                                    <i class="bi bi-brightness-high"></i>
+                                    <div>
+                                        <h4 class="d-none d-lg-block">RISET DAN TEKNOLOGI </h4>
+                                        <p>
+                                            RISTEK merupakan departemen yang berfokus
+                                            pada pengembangan, penelitian, dan inovasi
+                                            dalam bidang teknologi informasi.
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul><!-- End Tab Nav -->
+
+                    </div>
+
+                    <div class="col-lg-6">
+
+                        <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
+
+                            <div class="tab-pane fade active show" id="features-tab-1">
+                                <img src="{{ asset('assets-landing/assets/img/medinfo.jpg') }}" alt=""
+                                    class="img-fluid">
+                            </div><!-- End Tab Content Item -->
+
+                            <div class="tab-pane fade" id="features-tab-2">
+                                <img src="{{ asset('assets-landing/assets/img/ristek.jpg') }}" alt="" class="img-fluid">
+                            </div><!-- End Tab Content Item -->
+
+                            <div class="tab-pane fade" id="features-tab-3">
+                                <img src="{{ asset('assets-landing/assets/img/psda.jpg') }}" alt="" class="img-fluid">
+                            </div><!-- End Tab Content Item -->
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div> --}}
 
             {{-- </section><!-- /Features Section -->
 
@@ -451,541 +446,507 @@
 
                 <div class="tab-pane fade active show" id="features-tab-7">
                   <img src="{{ asset('assets-landing/assets/img/humas.jpg') }}" alt="" class="img-fluid">
-                </div><!-- End Tab Content Item -->
+            </div><!-- End Tab Content Item -->
 
-                <div class="tab-pane fade" id="features-tab-8">
-                  <img src="{{ asset('assets-landing/assets/img/danus.jpg') }}" alt="" class="img-fluid">
-                </div><!-- End Tab Content Item -->
+            <div class="tab-pane fade" id="features-tab-8">
+                <img src="{{ asset('assets-landing/assets/img/danus.jpg') }}" alt="" class="img-fluid">
+            </div><!-- End Tab Content Item -->
 
 
-              </div>
+            </div>
 
             </div>
             <div class="col-lg-5 d-flex align-items-center">
 
-              <ul class="nav nav-tabs" data-aos="fade-up" data-aos-delay="100">
-                <li class="nav-item">
-                  <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-7">
-                    <i class="bi bi-binoculars"></i>
-                    <div>
-                      <h4 class="d-none d-lg-block">HUBUNGAN MASYARAKAT</h4>
-                      <p>
-                        HUMAS merupakan departemen yang bertugas
-                        untuk menjaga komunikasi dan hubungan baik
-                        dengan organisasi mahasiswa baik di bidang
-                        internal maupun eksternal.
-                      </p>
-                    </div>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-8">
-                    <i class="bi bi-box-seam"></i>
-                    <div>
-                      <h4 class="d-none d-lg-block">DANA USAHA</h4>
-                      <p>
-                        DANUS merupakan departemen yang mengelola
-                        keuangan dan mengembangkan usaha untuk
-                        mendukung kegiatan HIMATIF.
-                      </p>
-                    </div>
-                  </a>
-                </li>
+                <ul class="nav nav-tabs" data-aos="fade-up" data-aos-delay="100">
+                    <li class="nav-item">
+                        <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-7">
+                            <i class="bi bi-binoculars"></i>
+                            <div>
+                                <h4 class="d-none d-lg-block">HUBUNGAN MASYARAKAT</h4>
+                                <p>
+                                    HUMAS merupakan departemen yang bertugas
+                                    untuk menjaga komunikasi dan hubungan baik
+                                    dengan organisasi mahasiswa baik di bidang
+                                    internal maupun eksternal.
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-8">
+                            <i class="bi bi-box-seam"></i>
+                            <div>
+                                <h4 class="d-none d-lg-block">DANA USAHA</h4>
+                                <p>
+                                    DANUS merupakan departemen yang mengelola
+                                    keuangan dan mengembangkan usaha untuk
+                                    mendukung kegiatan HIMATIF.
+                                </p>
+                            </div>
+                        </a>
+                    </li>
 
-              </ul><!-- End Tab Nav -->
+                </ul><!-- End Tab Nav -->
 
             </div>
 
 
 
-          </div>
+            </div>
 
-        </div>
+            </div>
 
-      </section><!-- /Features Section --> --}}
+        </section><!-- /Features Section --> --}}
 
 
-            <!-- ======= Team Section ======= -->
-            <section id="team" class="team">
-                <div class="container">
+        <!-- ======= Team Section ======= -->
+        <section id="team" class="team">
+            <div class="container">
 
-                    {{-- <div class="section-title" data-aos="fade-up">
+                {{-- <div class="section-title" data-aos="fade-up">
           <h2>STRUKTUR ORGANISASI</h2>
           <p>KABINET IGNIS ELEVATIO</p>
         </div> --}}
 
-                    <div class="carousel">
-                        <div class="list">
-                            <div class="item">
-                                <img src="assets-landing/assets/img/air/img9.png">
-                                <div class="introduce">
-                                    <div class="title">DEPARTMENT</div>
-                                    <div class="topic"><b>DANUS</b></div>
-                                    <div class="des">
-                                        Sarah Ardelia - Devina Muhhamad A.
-                                    </div>
-                                    <button class="seeMore">SEE MORE &#8599</button>
+                <div class="carousel">
+                    <div class="list">
+                        <div class="item">
+                            <img src="assets-landing/assets/img/air/img9.png">
+                            <div class="introduce">
+                                <div class="title">DEPARTMENT</div>
+                                <div class="topic"><b>DANUS</b></div>
+                                <div class="des">
+                                    Sarah Ardelia - Devina Muhhamad A.
                                 </div>
-                                <div class="detail">
-                                    <div class="title"><b>DANUS</b></div>
-                                    <div class="des">
-                                        DANUS merupakan departemen yang mengelola keuangan dan mengembangkan usaha untuk
-                                        mendukung kegiatan HIMATIF.
-                                    </div>
-                                    {{-- <div class="specifications">
-                            <div>
-                                <p>Used Time</p>
-                                <p>6 hours</p>
+                                <button class="seeMore">SEE MORE &#8599</button>
                             </div>
-                            <div>
-                                <p>Charging port</p>
-                                <p>Type-C</p>
-                            </div>
-                            <div>
-                                <p>Compatible</p>
-                                <p>Android</p>
-                            </div>
-                            <div>
-                                <p>Bluetooth</p>
-                                <p>5.3</p>
-                            </div>
-                            <div>
-                                <p>Controlled</p>
-                                <p>Touch</p>
-                            </div>
-                        </div> --}}
-                                    {{-- <div class="checkout">
-                            <button>ADD TO CART</button>
-                            <button>CHECKOUT</button>
-                        </div> --}}
+                            <div class="detail">
+                                <div class="title"><b>DANUS</b></div>
+                                <div class="des">
+                                    DANUS merupakan departemen yang mengelola keuangan dan mengembangkan usaha untuk
+                                    mendukung kegiatan HIMATIF.
                                 </div>
-                            </div>
-
-                            <div class="item">
-                                <img src="assets-landing/assets/img/air/img2.png">
-                                <div class="introduce">
-                                    {{-- <div class="title">DEPARTMENT</div> --}}
-                                    <div class="topic"><strong>HEAD OF HIMATIF</strong></div>
-                                    <div class="des">
-                                        Yasmin Helmy - M.Raihan Alfaiz
-                                    </div>
-                                    <button class="seeMore">SEE MORE &#8599</button>
-                                </div>
-                                <div class="detail">
-                                    <div class="title"><b>HEAD OF</b> HIMATIF</div>
-                                    <div class="des">
-                                        <!-- lorem 50 -->
-                                        Memimpin organisasi dengan menetapkan arah strategis, mengoordinasikan kegiatan,
-                                        memastikan tercapainya visi serta misi himpunan, serta membangun komunikasi yang
-                                        efektif antara pengurus dan anggota.
-                                    </div>
-                                    {{-- <div class="checkout">
-                            <button>ADD TO CART</button>
-                            <button>CHECKOUT</button>
-                        </div> --}}
-                                </div>
-                            </div>
-
-                            <div class="item">
-                                <img src="assets-landing/assets/img/air/img3.png">
-                                <div class="introduce">
-                                    {{-- <div class="title">DEPARTMENT</div> --}}
-                                    <div class="topic"><b>TREASURER</b></div>
-                                    <div class="des">
-                                        <!-- 20 lorem -->
-                                        Adam Rinaldi - Della Nur Cahya Putri
-                                    </div>
-                                    <button class="seeMore">SEE MORE &#8599</button>
-                                </div>
-                                <div class="detail">
-                                    <div class="title"><b>TREASURER</b></div>
-                                    <div class="des">
-                                        Bendahara bertanggung jawab untuk mengelola dan mengurus keuangan serta aset
-                                        suatu organisasi.
-                                    </div>
-                                    {{-- <div class="checkout">
-                            <button>ADD TO CART</button>
-                            <button>CHECKOUT</button>
-                        </div> --}}
-                                </div>
-                            </div>
-
-                            <div class="item">
-                                <img src="assets-landing/assets/img/air/img4.png">
-                                <div class="introduce">
-                                    {{-- <div class="title">DEPARTMENT</div> --}}
-                                    <div class="topic"><b>SECRETARY</b></div>
-                                    <div class="des">
-                                        Ananda Dwi Cynta - Nabilah Rasyiqah
-                                    </div>
-                                    <button class="seeMore">SEE MORE &#8599</button>
-                                </div>
-                                <div class="detail">
-                                    <div class="title"><b>SECRETARY</b></div>
-                                    <div class="des">
-                                        Bendahara bertanggung jawab untuk mengelola dan mengurus keuangan serta aset
-                                        suatu organisasi.
-                                    </div>
-                                    {{-- <div class="checkout">
-                            <button>ADD TO CART</button>
-                            <button>CHECKOUT</button>
-                        </div> --}}
-                                </div>
-                            </div>
-
-                            <div class="item">
-                                <img src="assets-landing/assets/img/air/img5.png">
-                                <div class="introduce">
-                                    <div class="title">DEPARTMENT</div>
-                                    <div class="topic"><b>MEDINFO</b></div>
-                                    <div class="des">
-                                        M. Fadli Taptajani - Nakhlah Wafa A.
-                                    </div>
-                                    <button class="seeMore">SEE MORE &#8599</button>
-                                </div>
-                                <div class="detail">
-                                    <div class="title"><b>MEDINFO</b></div>
-                                    <div class="des">
-                                        MEDINFO merupakan departemen yang bertanggung jawab atas pengelolaan,
-                                        distribusi, dan penyebaran informasi serta pengembangan media komunikasi dalam
-                                        sebuah organisasi.
-                                    </div>
-                                    {{-- <div class="checkout">
-                            <button>ADD TO CART</button>
-                            <button>CHECKOUT</button>
-                        </div> --}}
-                                </div>
-                            </div>
-
-                            <div class="item">
-                                <img src="assets-landing/assets/img/air/img6.png">
-                                <div class="introduce">
-                                    <div class="title">DEPARTMENT</div>
-                                    <div class="topic"><b>RISTEK</b></div>
-                                    <div class="des">
-                                        Yosua Immanuel H.K - Zidan Azzahra
-                                    </div>
-                                    <button class="seeMore">SEE MORE &#8599</button>
-                                </div>
-                                <div class="detail">
-                                    <div class="title"><b>RISTEK</b></div>
-                                    <div class="des">
-                                        RISTEK merupakan departemen yang berfokus pada pengembangan, penelitian, dan
-                                        inovasi dalam bidang teknologi informasi.
-                                    </div>
-                                    {{-- <div class="specifications">
-                            <div>
-                                <p>Used Time</p>
-                                <p>6 hours</p>
-                            </div>
-                            <div>
-                                <p>Charging port</p>
-                                <p>Type-C</p>
-                            </div>
-                            <div>
-                                <p>Compatible</p>
-                                <p>Android</p>
-                            </div>
-                            <div>
-                                <p>Bluetooth</p>
-                                <p>5.3</p>
-                            </div>
-                            <div>
-                                <p>Controlled</p>
-                                <p>Touch</p>
-                            </div>
-                        </div> --}}
-                                    {{-- <div class="checkout">
-                            <button>ADD TO CART</button>
-                            <button>CHECKOUT</button>
-                        </div> --}}
-                                </div>
-                            </div>
-                            <div class="item">
-                                <img src="assets-landing/assets/img/air/img7.png">
-                                <div class="introduce">
-                                    <div class="title">DEPARTMENT</div>
-                                    <div class="topic"><b>PSDA</b></div>
-                                    <div class="des">
-                                        Alvando Lefrand I.L - Fadly Attoriq
-                                    </div>
-                                    <button class="seeMore">SEE MORE &#8599</button>
-                                </div>
-                                <div class="detail">
-                                    <div class="title"><b>PSDA</b></div>
-                                    <div class="des">
-                                        PSDA merupakan departemen untuk meningkatkan kapasitas dan potensi setiap
-                                        individu dalam organisasi, dengan program-program inovatif dan berkelanjutan.
-                                    </div>
-                                    {{-- <div class="checkout">
-                            <button>ADD TO CART</button>
-                            <button>CHECKOUT</button>
-                        </div> --}}
-                                </div>
-                            </div>
-
-                            <div class="item">
-                                <img src="assets-landing/assets/img/air/img8.png">
-                                <div class="introduce">
-                                    <div class="title">DEPARTMENT</div>
-                                    <div class="topic"><b>HUMAS</b></div>
-                                    <div class="des">
-                                        Radiva Rizky - Muhammad Afriqi
-                                    </div>
-                                    <button class="seeMore">SEE MORE &#8599</button>
-                                </div>
-                                <div class="detail">
-                                    <div class="title"><b>PSDA</b></div>
-                                    <div class="des">
-                                        HUMAS merupakan departemen yang bertugas untuk menjaga komunikasi dan hubungan
-                                        baik dengan organisasi mahasiswa baik di bidang internal maupun eksternal.
-                                    </div>
-                                    {{-- <div class="checkout">
-                            <button>ADD TO CART</button>
-                            <button>CHECKOUT</button>
-                        </div> --}}
+                                <div class="btn-wrap">
+                                    <button type="button" class="btn-buy" data-toggle="modal" data-target="#danusModal">
+                                        See More
+                                    </button>
                                 </div>
                             </div>
                         </div>
 
+                        <div class="item">
+                            <img src="assets-landing/assets/img/air/img2.png">
+                            <div class="introduce">
+                                {{-- <div class="title">DEPARTMENT</div> --}}
+                                <div class="topic"><strong>HEAD OF HIMATIF</strong></div>
+                                <div class="des">
+                                    Yasmin Helmy - M.Raihan Alfaiz
+                                </div>
+                                <button class="seeMore">SEE MORE &#8599</button>
+                            </div>
+                            <div class="detail">
+                                <div class="title"><b>HEAD OF</b> HIMATIF</div>
+                                <div class="des">
+                                    <!-- lorem 50 -->
+                                    Memimpin organisasi dengan menetapkan arah strategis, mengoordinasikan kegiatan,
+                                    memastikan tercapainya visi serta misi himpunan, serta membangun komunikasi yang
+                                    efektif antara pengurus dan anggota.
+                                </div>
+                                {{-- <div class="checkout">
+                            <button>ADD TO CART</button>
+                            <button>CHECKOUT</button>
+                        </div> --}}
+                            </div>
+                        </div>
 
+                        <div class="item">
+                            <img src="assets-landing/assets/img/air/img3.png">
+                            <div class="introduce">
+                                {{-- <div class="title">DEPARTMENT</div> --}}
+                                <div class="topic"><b>TREASURER</b></div>
+                                <div class="des">
+                                    <!-- 20 lorem -->
+                                    Adam Rinaldi - Della Nur Cahya Putri
+                                </div>
+                                <button class="seeMore">SEE MORE &#8599</button>
+                            </div>
+                            <div class="detail">
+                                <div class="title"><b>TREASURER</b></div>
+                                <div class="des">
+                                    Bendahara bertanggung jawab untuk mengelola dan mengurus keuangan serta aset
+                                    suatu organisasi.
+                                </div>
+                                {{-- <div class="checkout">
+                            <button>ADD TO CART</button>
+                            <button>CHECKOUT</button>
+                        </div> --}}
+                            </div>
+                        </div>
 
+                        <div class="item">
+                            <img src="assets-landing/assets/img/air/img4.png">
+                            <div class="introduce">
+                                {{-- <div class="title">DEPARTMENT</div> --}}
+                                <div class="topic"><b>SECRETARY</b></div>
+                                <div class="des">
+                                    Ananda Dwi Cynta - Nabilah Rasyiqah
+                                </div>
+                                <button class="seeMore">SEE MORE &#8599</button>
+                            </div>
+                            <div class="detail">
+                                <div class="title"><b>SECRETARY</b></div>
+                                <div class="des">
+                                    Bendahara bertanggung jawab untuk mengelola dan mengurus keuangan serta aset
+                                    suatu organisasi.
+                                </div>
+                                {{-- <div class="checkout">
+                            <button>ADD TO CART</button>
+                            <button>CHECKOUT</button>
+                        </div> --}}
+                            </div>
+                        </div>
 
+                        <div class="item">
+                            <img src="assets-landing/assets/img/air/img5.png">
+                            <div class="introduce">
+                                <div class="title">DEPARTMENT</div>
+                                <div class="topic"><b>MEDINFO</b></div>
+                                <div class="des">
+                                    M. Fadli Taptajani - Nakhlah Wafa A.
+                                </div>
+                                <button class="seeMore">SEE MORE &#8599</button>
+                            </div>
+                            <div class="detail">
+                                <div class="title"><b>MEDINFO</b></div>
+                                <div class="des">
+                                    MEDINFO merupakan departemen yang bertanggung jawab atas pengelolaan,
+                                    distribusi, dan penyebaran informasi serta pengembangan media komunikasi dalam
+                                    sebuah organisasi.
+                                </div>
+                                <div class="btn-wrap">
+                                    <button type="button" class="btn-buy" data-toggle="modal"
+                                        data-target="#medinfoModal">
+                                        See More
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
 
-                        <div class="arrows">
-                            <button id="prev"><</button>
-                                    <button id="next">></button>
-                                    <button id="back">See All &#8599</button>
+                        <div class="item">
+                            <img src="assets-landing/assets/img/air/img6.png">
+                            <div class="introduce">
+                                <div class="title">DEPARTMENT</div>
+                                <div class="topic"><b>RISTEK</b></div>
+                                <div class="des">
+                                    Yosua Immanuel H.K - Zidan Azzahra
+                                </div>
+                                <button class="seeMore">SEE MORE &#8599</button>
+                            </div>
+                            <div class="detail">
+                                <div class="title"><b>RISTEK</b></div>
+                                <div class="des">
+                                    RISTEK merupakan departemen yang berfokus pada pengembangan, penelitian, dan
+                                    inovasi dalam bidang teknologi informasi.
+                                </div>
+                                <div class="btn-wrap">
+                                    <button type="button" class="btn-buy" data-toggle="modal"
+                                        data-target="#ristekModal">
+                                        See More
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="assets-landing/assets/img/air/img7.png">
+                            <div class="introduce">
+                                <div class="title">DEPARTMENT</div>
+                                <div class="topic"><b>PSDA</b></div>
+                                <div class="des">
+                                    Alvando Lefrand I.L - Fadly Attoriq
+                                </div>
+                                <button class="seeMore">SEE MORE &#8599</button>
+                            </div>
+                            <div class="detail">
+                                <div class="title"><b>PSDA</b></div>
+                                <div class="des">
+                                    PSDA merupakan departemen untuk meningkatkan kapasitas dan potensi setiap
+                                    individu dalam organisasi, dengan program-program inovatif dan berkelanjutan.
+                                </div>
+                                <div class="btn-wrap">
+                                    <button type="button" class="btn-buy" data-toggle="modal" data-target="#psdaModal">
+                                        See More
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="assets-landing/assets/img/air/img8.png">
+                            <div class="introduce">
+                                <div class="title">DEPARTMENT</div>
+                                <div class="topic"><b>HUMAS</b></div>
+                                <div class="des">
+                                    Radiva Rizky - Muhammad Afriqi
+                                </div>
+                                <button class="seeMore">SEE MORE &#8599</button>
+                            </div>
+                            <div class="detail">
+                                <div class="title"><b>PSDA</b></div>
+                                <div class="des">
+                                    HUMAS merupakan departemen yang bertugas untuk menjaga komunikasi dan hubungan
+                                    baik dengan organisasi mahasiswa baik di bidang internal maupun eksternal.
+                                </div>
+                                <div class="btn-wrap">
+                                    <button type="button" class="btn-buy" data-toggle="modal" data-target="#humasModal">
+                                        See More
+                                    </button>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
+                    <div class="arrows">
+                        <button id="prev">
+                            <</button> <button id="next">>
+                        </button>
+                        <button id="back">See All &#8599</button>
+                    </div>
+                </div>
 
-                    {{-- <div class="row" data-aos="fade-left">
+
+                {{-- <div class="row" data-aos="fade-left">
           <div class="col-lg-4 col-md-6 mt-5 mt-lg-0">
             <div class="member" data-aos="zoom-in" data-aos-delay="400">
-              <div class="pic"><img src="{{ asset('assets-landing/assets/img/team/pemtek.png') }}" class="img-fluid" alt=""></div>
-              <div class="member-info">
+              <div class="pic"><img src="{{ asset('assets-landing/assets/img/team/pemtek.png') }}" class="img-fluid"
+                alt=""></div>
+            <div class="member-info">
                 <h4>DEPT PEMTEK</h4>
                 <span>PENGEMBANGAN TEKNOLOGI</span>
                 <div class="social">
-                  <button type="button" class="btn-buy" data-toggle="modal" data-target="#pemtekModal"><i class="bi bi-arrow-right-circle"></i></button>
+                    <button type="button" class="btn-buy" data-toggle="modal" data-target="#pemtekModal"><i
+                            class="bi bi-arrow-right-circle"></i></button>
                 </div>
-              </div>
             </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6">
-            <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic"><img src="{{ asset('assets-landing/assets/img/team/5.png') }}" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>DEPT HUMAS</h4>
-                <span>HUBUNGAN MASYARAKAT</span>
-                <div class="social">
-                  <button type="button" class="btn-buy" data-toggle="modal" data-target="#humasModal"><i class="bi bi-arrow-right-circle"></i></button>
-                </div>
-              </div>
             </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mt-5 mt-md-0">
-            <div class="member" data-aos="zoom-in" data-aos-delay="200">
-              <div class="pic"><img src="{{ asset('assets-landing/assets/img/team/3.png') }}" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>DEPT DANUS</h4>
-                <span>DANA USAHA</span>
-                <div class="social">
-                  <button type="button" class="btn-buy" data-toggle="modal" data-target="#danusModal"><i class="bi bi-arrow-right-circle"></i></button>
-                </div>
-              </div>
             </div>
-          </div>
-        </div> --}}
 
+            <div class="col-lg-4 col-md-6">
+                <div class="member" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="pic"><img src="{{ asset('assets-landing/assets/img/team/5.png') }}" class="img-fluid"
+                            alt=""></div>
+                    <div class="member-info">
+                        <h4>DEPT HUMAS</h4>
+                        <span>HUBUNGAN MASYARAKAT</span>
+                        <div class="social">
+                            <button type="button" class="btn-buy" data-toggle="modal" data-target="#humasModal"><i
+                                    class="bi bi-arrow-right-circle"></i></button>
+                        </div>
+                    </div>
                 </div>
-            </section><!-- End Team Section -->
+            </div>
 
-            <!-- ======= Recent Blog Posts Section ======= -->
-            <section id="pricing" class="recent-blog-posts">
+            <div class="col-lg-4 col-md-6 mt-5 mt-md-0">
+                <div class="member" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="pic"><img src="{{ asset('assets-landing/assets/img/team/3.png') }}" class="img-fluid"
+                            alt=""></div>
+                    <div class="member-info">
+                        <h4>DEPT DANUS</h4>
+                        <span>DANA USAHA</span>
+                        <div class="social">
+                            <button type="button" class="btn-buy" data-toggle="modal" data-target="#danusModal"><i
+                                    class="bi bi-arrow-right-circle"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div> --}}
 
-                <div class="container" data-aos="fade-up">
+            </div>
+        </section><!-- End Team Section -->
 
-                    <div class="section-title" data-aos="fade-up">
-                        <h2>BLOG</h2>
-                        <p>BERITA HIMATIF</p>
+        <!-- ======= Recent Blog Posts Section ======= -->
+        <section id="pricing" class="recent-blog-posts">
+
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-title" data-aos="fade-up">
+                    <h2>BLOG</h2>
+                    <p>BERITA HIMATIF</p>
+                </div>
+
+                <div class="row">
+                    @foreach ($posts as $post)
+                    <div class="col-lg-4">
+                        <div class="post-box">
+                            <div class="post-img"><img src="{{ asset('storage/' . $post->image_cover) }}"
+                                    class="img-fluid" alt="" width="1080px" height="1352px"></div>
+                            <span class="post-date">{{ $post->created_at->diffForHumans() }}</span>
+                            <h3 class="post-title">{{ $post->title }}</h3>
+                            <a href="{{ route('blog.post', $post->id) }}"
+                                class="readmore stretched-link mt-auto"><span>Read More</span><i
+                                    class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    @endforeach
+                    <div class="btn-wrap">
+                        <a href="{{ route('blog') }}" class="btn-buy">Selengkapnya</a>
+
                     </div>
 
-                    <div class="row">
-                        @foreach ($posts as $post)
-                            <div class="col-lg-4">
-                                <div class="post-box">
-                                    <div class="post-img"><img src="{{ asset('storage/' . $post->image_cover) }}"
-                                            class="img-fluid" alt="" width="1080px" height="1352px"></div>
-                                    <span class="post-date">{{ $post->created_at->diffForHumans() }}</span>
-                                    <h3 class="post-title">{{ $post->title }}</h3>
-                                    <a href="{{ route('blog.post', $post->id) }}"
-                                        class="readmore stretched-link mt-auto"><span>Read More</span><i
-                                            class="bi bi-arrow-right"></i></a>
+                </div>
+
+            </div>
+
+        </section><!-- End Recent Blog Posts Section -->
+
+
+
+        <!-- ======= Gallery Section ======= -->
+        <!-- ======= Portfolio Section ======= -->
+        <section id="portfolio" class="portfolio">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-title">
+                    <h2>Gallery</h2>
+                    <p>Gallery Himatif</p>
+                </div>
+
+
+                <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+                    @foreach ($gallery as $gl)
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                        <div class="portfolio-img"><img src="{{ asset('storage/' . $gl->image) }}" class="img-fluid"
+                                alt=""></div>
+                        <div class="portfolio-info">
+                            <h4>{{ $gl->tahun }}</h4>
+                            <p>{{ $gl->nama }}</p>
+                            <a href="{{ asset('storage/' . $gl->image) }}" data-gallery="portfolioGallery"
+                                class="portfolio-lightbox preview-link"><i class="bx bx-plus"></i></a>
+                        </div>
+                    </div>
+                    @endforeach
+
+                    <div class="btn-wrap">
+                        <a href="{{ route('gallery-landing') }}" class="btn-buy">Selengkapnya</a>
+
+                    </div>
+
+
+
+
+                </div>
+
+            </div>
+        </section><!-- End Portfolio Section -->
+
+        <!-- ======= Alumni Section ======= -->
+        <section id="testimonials" class="alumni">
+
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-title" data-aos="fade-up">
+                    <h2>Alumni</h2>
+                    <p>Alumni Himatif</p>
+                </div>
+
+                <div class="row gy-4">
+                    @foreach ($alumni as $al)
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+                        <div class="member">
+                            <div class="member-img">
+                                <img src="{{ asset('storage/' . $al->image) }}" class="img-fluid" alt="" width="400px"
+                                    height="600px">
+                            </div>
+                            <div class="member-info">
+                                <h4>{{ $al->nama }}</h4>
+                                <span>Angkatan {{ $al->angkatan }}</span>
+                            </div>
+                        </div>
+                    </div>
+                    @endforeach
+
+
+
+
+                    <div class="btn-wrap">
+                        <a href="{{ route('alumni-landing') }}" class="btn-buy">Selengkapnya</a>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </section><!-- End Team Section -->
+
+
+
+
+        <!-- ======= Contact Section ======= -->
+        <section id="contact" class="contact">
+            <div class="container">
+
+                <div class="section-title" data-aos="fade-up">
+                    <h2>Contact</h2>
+                    <p>Contact Us</p>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-lg-4" data-aos="fade-right" data-aos-delay="100">
+                        <div class="info">
+                            <div class="address">
+                                <i class="bi bi-geo-alt"></i>
+                                <h4>Location:</h4>
+                                <p>Jakarta Global University. Depok, Indonesia</p>
+                            </div>
+
+                            <div class="email">
+                                <i class="bi bi-envelope"></i>
+                                <h4>Email:</h4>
+                                <p>himatif@jgu.ac.id</p>
+                            </div>
+
+                            <div class="phone">
+                                <i class="bi bi-phone"></i>
+                                <h4>Call:</h4>
+                                <p>+62 877-7547-2238</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left" data-aos-delay="200">
+                        <form action="mailto:himatif@jgu.ac.id" method="post" role="form">
+                            <div class="row">
+                                <div class="col-md-6 form-group">
+                                    <input type="text" name="name" class="form-control" id="name"
+                                        placeholder="Your Name" required>
+                                </div>
+                                <div class="col-md-6 form-group mt-3 mt-md-0">
+                                    <input type="email" class="form-control" name="email" id="email"
+                                        placeholder="Your Email" required>
                                 </div>
                             </div>
-                        @endforeach
-                        <div class="btn-wrap">
-                            <a href="{{ route('blog') }}" class="btn-buy">Selengkapnya</a>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </section><!-- End Recent Blog Posts Section -->
-
-
-
-            <!-- ======= Gallery Section ======= -->
-            <!-- ======= Portfolio Section ======= -->
-            <section id="portfolio" class="portfolio">
-                <div class="container" data-aos="fade-up">
-
-                    <div class="section-title">
-                        <h2>Gallery</h2>
-                        <p>Gallery Himatif</p>
-                    </div>
-
-
-                    <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-                        @foreach ($gallery as $gl)
-                            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                                <div class="portfolio-img"><img src="{{ asset('storage/' . $gl->image) }}"
-                                        class="img-fluid" alt=""></div>
-                                <div class="portfolio-info">
-                                    <h4>{{ $gl->tahun }}</h4>
-                                    <p>{{ $gl->nama }}</p>
-                                    <a href="{{ asset('storage/' . $gl->image) }}" data-gallery="portfolioGallery"
-                                        class="portfolio-lightbox preview-link"><i class="bx bx-plus"></i></a>
-                                </div>
+                            <div class="form-group mt-3">
+                                <input type="text" class="form-control" name="subject" id="subject"
+                                    placeholder="Subject" required>
                             </div>
-                        @endforeach
-
-                        <div class="btn-wrap">
-                            <a href="{{ route('gallery-landing') }}" class="btn-buy">Selengkapnya</a>
-
-                        </div>
-
-
-
-
-                    </div>
-
-                </div>
-            </section><!-- End Portfolio Section -->
-
-            <!-- ======= Alumni Section ======= -->
-            <section id="testimonials" class="alumni">
-
-                <div class="container" data-aos="fade-up">
-
-                    <div class="section-title" data-aos="fade-up">
-                        <h2>Alumni</h2>
-                        <p>Alumni Himatif</p>
-                    </div>
-
-                    <div class="row gy-4">
-                        @foreach ($alumni as $al)
-                            <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up"
-                                data-aos-delay="100">
-                                <div class="member">
-                                    <div class="member-img">
-                                        <img src="{{ asset('storage/' . $al->image) }}" class="img-fluid"
-                                            alt="" width="400px" height="600px">
-                                    </div>
-                                    <div class="member-info">
-                                        <h4>{{ $al->nama }}</h4>
-                                        <span>Angkatan {{ $al->angkatan }}</span>
-                                    </div>
-                                </div>
-                            </div>
-                        @endforeach
-
-
-
-
-                        <div class="btn-wrap">
-                            <a href="{{ route('alumni-landing') }}" class="btn-buy">Selengkapnya</a>
-
-                        </div>
-                    </div>
-
-                </div>
-
-            </section><!-- End Team Section -->
-
-
-
-
-            <!-- ======= Contact Section ======= -->
-            <section id="contact" class="contact">
-                <div class="container">
-
-                    <div class="section-title" data-aos="fade-up">
-                        <h2>Contact</h2>
-                        <p>Contact Us</p>
-                    </div>
-
-                    <div class="row">
-
-                        <div class="col-lg-4" data-aos="fade-right" data-aos-delay="100">
-                            <div class="info">
-                                <div class="address">
-                                    <i class="bi bi-geo-alt"></i>
-                                    <h4>Location:</h4>
-                                    <p>Jakarta Global University. Depok, Indonesia</p>
-                                </div>
-
-                                <div class="email">
-                                    <i class="bi bi-envelope"></i>
-                                    <h4>Email:</h4>
-                                    <p>himatif@jgu.ac.id</p>
-                                </div>
-
-                                <div class="phone">
-                                    <i class="bi bi-phone"></i>
-                                    <h4>Call:</h4>
-                                    <p>+62 877-7547-2238</p>
-                                </div>
-
+                            <div class="form-group mt-3">
+                                <textarea class="form-control" name="message" rows="5" placeholder="Message"
+                                    required></textarea>
                             </div>
 
-                        </div>
-
-                        <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left" data-aos-delay="200">
-                            <form action="mailto:himatif@jgu.ac.id" method="post" role="form">
-                                <div class="row">
-                                    <div class="col-md-6 form-group">
-                                        <input type="text" name="name" class="form-control" id="name"
-                                            placeholder="Your Name" required>
-                                    </div>
-                                    <div class="col-md-6 form-group mt-3 mt-md-0">
-                                        <input type="email" class="form-control" name="email" id="email"
-                                            placeholder="Your Email" required>
-                                    </div>
-                                </div>
-                                <div class="form-group mt-3">
-                                    <input type="text" class="form-control" name="subject" id="subject"
-                                        placeholder="Subject" required>
-                                </div>
-                                <div class="form-group mt-3">
-                                    <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-                                </div>
-
-                                <div class="text-center"><button type="submit">Send Message</button></div>
-                            </form>
-                        </div>
-
+                            <div class="text-center"><button type="submit">Send Message</button></div>
+                        </form>
                     </div>
 
                 </div>
-            </section><!-- End Contact Section -->
+
+            </div>
+        </section><!-- End Contact Section -->
 
     </main><!-- End #main -->
 
@@ -1077,7 +1038,8 @@
     <div class="modal fade" id="misiModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
-            <div class="modal-content modal-custom"> <!-- Tambahkan kelas modal-custom di sini -->
+            <div class="modal-content modal-custom-vm">
+                <!-- Tambahkan kelas modal-custom di sini -->
                 <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalLongTitle">MISI HIMATIF</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -1107,7 +1069,8 @@
     <div class="modal fade" id="visiModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
-            <div class="modal-content modal-custom"> <!-- Tambahkan kelas modal-custom di sini -->
+            <div class="modal-content modal-custom">
+                <!-- Tambahkan kelas modal-custom di sini -->
                 <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalLongTitle">VISI HIMATIF</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -1127,7 +1090,7 @@
     </div>
 
     <!-- Modal Seketariat-->
-    <div class="modal fade" id="sekreModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    <!-- <div class="modal fade" id="sekreModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content  modal-custom">
@@ -1212,63 +1175,68 @@
 
             </div>
         </div>
-    </div>
+    </div> -->
 
 
-    <!-- Modal Infokom-->
-    <div class="modal fade" id="infokomModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    <!-- Modal Medinfo-->
+    <div class="modal fade" id="medinfoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content  modal-custom">
                 <div class="modal-header">
-                    <h5 class="modal-title modal-title-center" id="exampleModalLabel">DEPARTEMEN <br> INFORMASI DAN
-                        KOMUNIKASI</h5>
+                    <h5 class="modal-title modal-title-center" id="exampleModalLabel">DEPARTEMEN <br> MEDIA DAN
+                        INFORMASI</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
-                    <div id="carouselInfokom" class="carousel slide" data-ride="carousel">
+                    <div id="carouselMedinfo" class="carousel slide" data-ride="carousel">
                         <ol class="carousel-indicators">
-                            <li data-target="#carouselInfokom" data-slide-to="0" class="active"></li>
-                            <li data-target="#carouselInfokom" data-slide-to="1"></li>
-                            <li data-target="#carouselInfokom" data-slide-to="2"></li>
-                            <li data-target="#carouselInfokom" data-slide-to="3"></li>
+                            <li data-target="#carouselMedinfo" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselMedinfo" data-slide-to="1"></li>
+                            <li data-target="#carouselMedinfo" data-slide-to="2"></li>
+                            <li data-target="#carouselMedinfo" data-slide-to="3"></li>
+                            <li data-target="#carouselMedinfo" data-slide-to="4"></li>
+                            <li data-target="#carouselMedinfo" data-slide-to="5"></li>
+                            <li data-target="#carouselMedinfo" data-slide-to="6"></li>
                         </ol>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img class="d-block w-100" src="{{ asset('assets-landing/assets/img/team/13.png') }}"
+                                <img class="d-block w-100"
+                                    src="{{ asset('assets-landing/assets/img/medinfo/medinfo-1.jpg') }}"
                                     alt="First slide">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Intania Syahla Kirana</h5>
-                                    <p>Ketua Departemen</p>
-                                </div>
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="{{ asset('assets-landing/assets/img/team/12.png') }}"
+                                <img class="d-block w-100"
+                                    src="{{ asset('assets-landing/assets/img/medinfo/medinfo-2.jpg') }}"
                                     alt="Second slide">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5> Muhammad Fadli Taptajani</h5>
-                                    <p>Anggota Departemen</p>
-                                </div>
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="{{ asset('assets-landing/assets/img/team/14.png') }}"
+                                <img class="d-block w-100"
+                                    src="{{ asset('assets-landing/assets/img/medinfo/medinfo-3.jpg') }}"
                                     alt="Third slide">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Ocin Leonaldo</h5>
-                                    <p>Anggota Departemen</p>
-                                </div>
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="{{ asset('assets-landing/assets/img/team/15.png') }}"
+                                <img class="d-block w-100"
+                                    src="{{ asset('assets-landing/assets/img/medinfo/medinfo-4.jpg') }}"
                                     alt="Third slide">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Febianna Zahirah</h5>
-                                    <p>Anggota Departemen</p>
-                                </div>
                             </div>
-
+                            <div class="carousel-item">
+                                <img class="d-block w-100"
+                                    src="{{ asset('assets-landing/assets/img/medinfo/medinfo-5.jpg') }}"
+                                    alt="Third slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100"
+                                    src="{{ asset('assets-landing/assets/img/medinfo/medinfo-6.jpg') }}"
+                                    alt="Third slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100"
+                                    src="{{ asset('assets-landing/assets/img/medinfo/medinfo-7.jpg') }}"
+                                    alt="Third slide">
+                            </div>
                         </div>
                         <a class="carousel-control-prev" href="#carouselInfokom" role="button" data-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -1286,59 +1254,57 @@
     </div>
 
     <!-- Modal Kastrat-->
-    <div class="modal fade" id="kastratModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    <div class="modal fade" id="psdaModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content  modal-custom">
                 <div class="modal-header">
-                    <h5 class="modal-title modal-title-center" id="exampleModalLabel">DEPARTEMEN <br> KAJIAN DAN RISET
-                        STRATEGI</h5>
+                    <h5 class="modal-title modal-title-center" id="exampleModalLabel">DEPARTEMEN <br> PENGEMBANGAN
+                        SUMBER DAYA ANGGOTA</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
-                    <div id="carouselKastrat" class="carousel slide" data-ride="carousel">
+                    <div id="carouselPsda" class="carousel slide" data-ride="carousel">
                         <ol class="carousel-indicators">
-                            <li data-target="#carouselKastrat" data-slide-to="0" class="active"></li>
-                            <li data-target="#carouselKastrat" data-slide-to="1"></li>
-                            <li data-target="#carouselKastrat" data-slide-to="2"></li>
-                            <li data-target="#carouselKastrat" data-slide-to="3"></li>
+                            <li data-target="#carouselPsda" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselPsda" data-slide-to="1"></li>
+                            <li data-target="#carouselPsda" data-slide-to="2"></li>
+                            <li data-target="#carouselPsda" data-slide-to="3"></li>
+                            <li data-target="#carouselPsda" data-slide-to="4"></li>
+                            <li data-target="#carouselPsda" data-slide-to="5"></li>
+                            <li data-target="#carouselPsda" data-slide-to="6"></li>
                         </ol>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img class="d-block w-100" src="{{ asset('assets-landing/assets/img/team/16.png') }}"
-                                    alt="First slide">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Syntia Tri Utami</h5>
-                                    <p>Ketua Departemen</p>
-                                </div>
+                                <img class="d-block w-100"
+                                    src="{{ asset('assets-landing/assets/img/psda/psda-1.jpg') }}" alt="First slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="{{ asset('assets-landing/assets/img/team/17.png') }}"
-                                    alt="Second slide">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Muhammad Raihan Alfaiz</h5>
-                                    <p>Anggota Departemen</p>
-                                </div>
+                                <img class="d-block w-100"
+                                    src="{{ asset('assets-landing/assets/img/psda/psda-2.jpg') }}" alt="Second slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="{{ asset('assets-landing/assets/img/team/18.png') }}"
-                                    alt="Third slide">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Wisnu Mega Wardhana</h5>
-                                    <p>Anggota Departemen</p>
-                                </div>
+                                <img class="d-block w-100"
+                                    src="{{ asset('assets-landing/assets/img/psda/psda-3.jpg') }}" alt="Third slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="{{ asset('assets-landing/assets/img/team/19.png') }}"
-                                    alt="Third slide">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Ahnaf Hilman Khilfi Wahyudi</h5>
-                                    <p>Anggota Departemen</p>
-                                </div>
+                                <img class="d-block w-100"
+                                    src="{{ asset('assets-landing/assets/img/psda/psda-4.jpg') }}" alt="Third slide">
                             </div>
-
+                            <div class="carousel-item">
+                                <img class="d-block w-100"
+                                    src="{{ asset('assets-landing/assets/img/psda/psda-5.jpg') }}" alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100"
+                                    src="{{ asset('assets-landing/assets/img/psda/psda-6.jpg') }}" alt="Third slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100"
+                                    src="{{ asset('assets-landing/assets/img/psda/psda-7.jpg') }}" alt="Third slide">
+                            </div>
                         </div>
                         <a class="carousel-control-prev" href="#carouselKastrat" role="button" data-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -1356,68 +1322,58 @@
     </div>
 
     <!-- Modal Pemtek-->
-    <div class="modal fade" id="pemtekModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    <div class="modal fade" id="ristekModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content  modal-custom">
                 <div class="modal-header">
-                    <h5 class="modal-title modal-title-center" id="exampleModalLabel">DEPARTEMEN <br> PENGEMBANGAN
+                    <h5 class="modal-title modal-title-center" id="exampleModalLabel">DEPARTEMEN <br> RISET DAN
                         TEKNOLOGI</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
-                    <div id="carouselPemtek" class="carousel slide" data-ride="carousel">
+                    <div id="carouselRistek" class="carousel slide" data-ride="carousel">
                         <ol class="carousel-indicators">
-                            <li data-target="#carouselPemtek" data-slide-to="0" class="active"></li>
-                            <li data-target="#carouselPemtek" data-slide-to="1"></li>
-                            <li data-target="#carouselPemtek" data-slide-to="2"></li>
-                            <li data-target="#carouselPemtek" data-slide-to="3"></li>
+                            <li data-target="#carouselRistek" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselRistek" data-slide-to="1"></li>
+                            <li data-target="#carouselRistek" data-slide-to="2"></li>
+                            <li data-target="#carouselRistek" data-slide-to="3"></li>
+                            <li data-target="#carouselRistek" data-slide-to="4"></li>
+                            <li data-target="#carouselRistek" data-slide-to="5"></li>
                         </ol>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img class="d-block w-100" src="{{ asset('assets-landing/assets/img/team/21.png') }}"
+                                <img class="d-block w-100"
+                                    src="{{ asset('assets-landing/assets/img/ristek/ristek-1.jpg') }}"
                                     alt="First slide">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Jordy Ismail Arianto</h5>
-                                    <p>Ketua Departemen</p>
-                                </div>
                             </div>
                             <div class="carousel-item">
                                 <img class="d-block w-100"
-                                    src="{{ asset('assets-landing/assets/img/team/hafidz.png') }}"
+                                    src="{{ asset('assets-landing/assets/img/ristek/ristek-2.jpg') }}"
                                     alt="Second slide">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Muhammad Hafidz</h5>
-                                    <p>Anggota Departemen</p>
-                                </div>
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="{{ asset('assets-landing/assets/img/team/22.png') }}"
+                                <img class="d-block w-100"
+                                    src="{{ asset('assets-landing/assets/img/ristek/ristek-3.jpg') }}"
                                     alt="Second slide">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Zhamir Mustafid</h5>
-                                    <p>Anggota Departemen</p>
-                                </div>
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="{{ asset('assets-landing/assets/img/team/23.png') }}"
+                                <img class="d-block w-100"
+                                    src="{{ asset('assets-landing/assets/img/ristek/ristek-4.jpg') }}"
                                     alt="Third slide">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Akbar Maulana febriansyah</h5>
-                                    <p>Anggota Departemen</p>
-                                </div>
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="{{ asset('assets-landing/assets/img/team/24.png') }}"
+                                <img class="d-block w-100"
+                                    src="{{ asset('assets-landing/assets/img/ristek/ristek-5.jpg') }}"
                                     alt="Third slide">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Fadly Atthoriq</h5>
-                                    <p>Anggota Departemen</p>
-                                </div>
                             </div>
-
+                            <div class="carousel-item">
+                                <img class="d-block w-100"
+                                    src="{{ asset('assets-landing/assets/img/ristek/ristek-6.jpg') }}"
+                                    alt="Third slide">
+                            </div>
                         </div>
                         <a class="carousel-control-prev" href="#carouselPemtek" role="button" data-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -1501,7 +1457,6 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content  modal-custom">
                 <div class="modal-header">
-                    <h5 class="modal-title modal-title-center" id="exampleModalLabel">DEPARTEMEN <br>DANA USAHA</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -1516,36 +1471,20 @@
                         </ol>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img class="d-block w-100" src="{{ asset('assets-landing/assets/img/team/28.png') }}"
-                                    alt="First slide">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Novejira Angela Pello</h5>
-                                    <p>Ketua Departemen</p>
-                                </div>
+                                <img class="d-block w-100"
+                                    src="{{ asset('assets-landing/assets/img/danus_himatif/danus-1.jpg') }}" alt="First slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="{{ asset('assets-landing/assets/img/team/29.png') }}"
-                                    alt="Second slide">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Mochamad Diaz Zalfa Nandito</h5>
-                                    <p>Anggota Departemen</p>
-                                </div>
+                                <img class="d-block w-100"
+                                    src="{{ asset('assets-landing/assets/img/danus_himatif/danus-2.jpg') }}" alt="Second slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="{{ asset('assets-landing/assets/img/team/30.png') }}"
-                                    alt="Third slide">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Diah Alfira Yuni Damayanti</h5>
-                                    <p>Anggota Departemen</p>
-                                </div>
+                                <img class="d-block w-100"
+                                    src="{{ asset('assets-landing/assets/img/danus_himatif/danus-3.jpg') }}" alt="Third slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="{{ asset('assets-landing/assets/img/team/31.png') }}"
-                                    alt="Third slide">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Siti Nurhaliza</h5>
-                                    <p>Anggota Departemen</p>
-                                </div>
+                                <img class="d-block w-100"
+                                    src="{{ asset('assets-landing/assets/img/danus_himatif/danus-4.jpg') }}" alt="Third slide">
                             </div>
 
                         </div>
@@ -1596,6 +1535,7 @@
             window.location.href = mailtoLink;
             return false;
         }
+
     </script>
     <script>
         function redirectToEmail() {
@@ -1617,6 +1557,7 @@
             window.location.href = mailtoLink;
             return false;
         }
+
     </script>
 </body>
 
