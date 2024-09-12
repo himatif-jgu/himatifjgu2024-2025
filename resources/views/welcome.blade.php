@@ -774,14 +774,13 @@
 
         <!-- ======= Recent Blog Posts Section ======= -->
         <section id="pricing" class="recent-blog-posts">
-
             <div class="container" data-aos="fade-up">
-
+            <center>
                 <div class="section-title" data-aos="fade-up">
                     <h2>BLOG</h2>
                     <p>BERITA HIMATIF</p>
                 </div>
-
+            </center>
                 <div class="row">
                     @foreach ($posts as $post)
                     <div class="col-lg-4">
@@ -813,12 +812,12 @@
         <!-- ======= Portfolio Section ======= -->
         <section id="portfolio" class="portfolio">
             <div class="container" data-aos="fade-up">
-
+                <center>
                 <div class="section-title">
                     <h2>Gallery</h2>
                     <p>Gallery Himatif</p>
                 </div>
-
+                </center>
 
                 <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
