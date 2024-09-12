@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.vm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #899475;
+    min-height: 100vh;
+}
+
+.container-vm {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    /* Full width of viewport */
+    padding: 0 350px;
+    /* Add padding on left and right */
+}
+
+.card {
+    position: relative;
+    width: 400px;
+    height: 480px;
+    background: #0000;
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border-radius: 10px;
+    transition: 0.9s ease;
+}
+
+
+/* By default, .details is hidden off the screen */
+
+.card .details-vm {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #899475;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.9s ease;
+    color: #fff;
+}
+
+
+/* Hover effect: shift .details-vm to the left (in view) */
+
+.card:hover .details-vm {
+    left: 0;
+}
+
+.card .imgBx {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.9s ease;
+    background-color: #fff;
+    z-index: 1;
+    /* Ensure img stays on top initially */
+}
+
+.card .imgBx img {
+    max-width: 100%;
+    border-radius: 10px;
+    transition: 0.9s ease;
+}
+
+
+/* On hover, hide the image */
+
+.card:hover .imgBx {
+    left: -100%;
+}
+
+.card .details-vm h3 {
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+.card .details-vm p {
+    margin-top: 10px;
+    font-size: 0.9em;
+    opacity: 0.85;
+}
+
+
+/* Styling untuk tombol Selengkapnya */
+
+.btn-buy {
+    background: linear-gradient(45deg, #384032, #899475);
+    /* Gradasi warna */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1.1em;
+    font-weight: 500;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    /* Shadow */
+    cursor: pointer;
+}
+
+.btn-buy:hover {
+    background: linear-gradient(45deg, #384032, #384032);
+    /* Ubah arah gradasi saat hover */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    /* Tambahkan shadow lebih besar */
+    transform: translateY(-3px);
+    /* Tombol bergerak ke atas saat di-hover */
+}
+
+.btn-buy:focus {
+    outline: none;
+    /* Hilangkan outline default saat fokus */
+}

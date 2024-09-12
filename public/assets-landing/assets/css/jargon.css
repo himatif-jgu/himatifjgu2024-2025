@@ -1,0 +1,62 @@
+.jargon {
+    background-color: black;
+    font-family: system-ui, sans-serif;
+}
+
+.tutorial {
+    height: 8vh;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #384032;
+}
+
+.container-jgn {
+    display: flex;
+    overflow: hidden;
+    -webkit-mask-image: linear-gradient(90deg, transparent, #384032 40%, #384032 60%, transparent);
+    mask-image: linear-gradient(90deg, transparent, #384032 40%, #384032 60%, transparent);
+}
+
+.scroller {
+    display: flex;
+    gap: 5px;
+    animation: scroll 25s linear infinite;
+    animation-delay: calc(25s / -1);
+}
+
+.scroller:nth-child(2) {
+    animation: scroll2 25s linear infinite;
+    animation-delay: calc(25s / -2);
+}
+
+.item-jg {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    color: #e7e7e7 ;
+    padding: 7px 15px;
+    border-radius: 7px;
+    /* box-shadow: rgba(255, 255, 255, 0.192) 0px 0px 15px; */
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes scroll2 {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-200%);
+    }
+}
