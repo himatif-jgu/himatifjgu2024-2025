@@ -89,6 +89,7 @@
 
 .card:hover .imgBx {
     left: -100%;
+    filter: blur(5px); /* Add motion blur effect */
 }
 
 .card .details-vm h3 {
@@ -131,5 +132,5 @@
 
 .btn-buy:focus {
     outline: none;
-    /* Hilangkan outline default saat fokus */
+    /* Hilangkan outline default saat fokus */
 }

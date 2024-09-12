@@ -128,18 +128,21 @@
 
         <!-- About Section -->
         <section id="about" class="about section">
-            <center>
+            {{-- <center>
                 <div class="section-title" data-aos="fade-up">
                     <h2>SeJARAH</h2>
                     <p>SEJARAH HIMATIF</p>
                 </div>
-            </center>
+            </center> --}}
+            <br>
+            <br>
+            <br>
             <div class="container">
 
                 <div class="row gy-4">
 
                     <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
-                        <p class="who-we-are">Who We Are</p>
+                        {{-- <p class="who-we-are">Who We Are</p> --}}
                         <h3>SEJARAH HIMATIF JGU</h3>
                         <p class="fst-italic">
                             Proses awal terbentuknya Himpunan Mahasiswa Teknik Informatika (HIMATIF) dimulai saat Kampus
@@ -183,45 +186,49 @@
             </div>
         </section>
         <!-- /About Section -->
-
+<br>
+<br>
         <!-- Features Details Section -->
         <section id="features-details" class="features-details section">
             <center>
-                <div class="container-vm">
-                    <div class="card">
-                        <div class="imgBx">
-                            <img src="{{ asset('assets-landing/assets/img/misi.jpg') }}">
-                        </div>
-                        <div class="details-vm">
-                            <h2><b>VISI <span>HIMATIF</span></b></h2>
-                            <br>
-                            <h5>Mewujudkan HIMATIF sebagai himpunan mahasiswa yang kolaboratif, inovatif, interaktif,
-                                dan merangkul antar sesama, serta dapat menciptakan lingkungan yang nyaman, aktif,
-                                solutif,
-                                dan responsif bagi mahasiswa/i Teknik Informatika.</h5>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <div class="imgBx">
-                            <img src="{{ asset('assets-landing/assets/img/visi.jpg') }}">
-                        </div>
-                        <div class="details-vm">
-                            <h2><b>MISI <span>HIMATIF</span></b></h2>
-                            <ul class="numbered-list">
-                                <li>Mendorong dan mempererat hubungan antara anggota himpunan maupun non-anggota melalui
-                                    kegiatan bersama yang inklusif dan kolaboratif.</li>
-                                <li>Menyediakan lingkungan yang mendukung dan bertanggung jawab di mana setiap anggota
-                                    dapat berkembang dan berkontribusi secara maksimal.</li>
-                            </ul>
-                            <div class="btn-wrap">
-                                <button type="button" class="btn-buy" data-toggle="modal" data-target="#misiModal">
-                                    Selengkapnya
-                                </button>
+                {{-- <div class="container-vm"> --}}
+                    {{-- <div class="row p-3"> --}}
+                        <div class="card mb-4">
+                            <div class="imgBx">
+                                <img src="{{ asset('assets-landing/assets/img/misi.jpg') }}">
+                            </div>
+                            <div class="details-vm">
+                                <h2><b>VISI <span>HIMATIF</span></b></h2>
+                                <br>
+                                <h5>Mewujudkan HIMATIF sebagai himpunan mahasiswa yang kolaboratif, inovatif, interaktif,
+                                    dan merangkul antar sesama, serta dapat menciptakan lingkungan yang nyaman, aktif,
+                                    solutif,
+                                    dan responsif bagi mahasiswa/i Teknik Informatika.</h5>
                             </div>
                         </div>
-                    </div>
-                </div>
+
+                        <div class="card mb-4">
+                            <div class="imgBx">
+                                <img src="{{ asset('assets-landing/assets/img/visi.jpg') }}">
+                            </div>
+                            <div class="details-vm">
+                                <h2><b>MISI <span>HIMATIF</span></b></h2>
+                                <ul class="numbered-list">
+                                    <li>Mendorong dan mempererat hubungan antara anggota himpunan maupun non-anggota melalui
+                                        kegiatan bersama yang inklusif dan kolaboratif.</li>
+                                    <li>Menyediakan lingkungan yang mendukung dan bertanggung jawab di mana setiap anggota
+                                        dapat berkembang dan berkontribusi secara maksimal.</li>
+                                </ul>
+                                <div class="btn-wrap">
+                                    <button type="button" class="btn-buy" data-toggle="modal" data-target="#misiModal">
+                                        Selengkapnya
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    {{-- </div> --}}
+
+                {{-- </div> --}}
             </center>
         </section>
 
@@ -516,14 +523,14 @@
                             <div class="introduce">
                                 <div class="title">DEPARTMENT</div>
                                 <div class="topic"><b>DANUS</b></div>
-                                <div class="des">
+                                <div class="des mb-3">
                                     Sarah Ardelia - Devina Muhhamad A.
                                 </div>
                                 <button class="seeMore">SEE MORE &#8599</button>
                             </div>
                             <div class="detail">
                                 <div class="title"><b>DANUS</b></div>
-                                <div class="des">
+                                <div class="des mb-3">
                                     DANUS merupakan departemen yang mengelola keuangan dan mengembangkan usaha untuk
                                     mendukung kegiatan HIMATIF.
                                 </div>
@@ -540,14 +547,14 @@
                             <div class="introduce">
                                 {{-- <div class="title">DEPARTMENT</div> --}}
                                 <div class="topic"><strong>HEAD OF HIMATIF</strong></div>
-                                <div class="des">
+                                <div class="des mb-3">
                                     Yasmin Helmy - M.Raihan Alfaiz
                                 </div>
                                 <button class="seeMore">SEE MORE &#8599</button>
                             </div>
                             <div class="detail">
                                 <div class="title"><b>HEAD OF</b> HIMATIF</div>
-                                <div class="des">
+                                <div class="des mb-3">
                                     <!-- lorem 50 -->
                                     Memimpin organisasi dengan menetapkan arah strategis, mengoordinasikan kegiatan,
                                     memastikan tercapainya visi serta misi himpunan, serta membangun komunikasi yang
@@ -565,7 +572,7 @@
                             <div class="introduce">
                                 {{-- <div class="title">DEPARTMENT</div> --}}
                                 <div class="topic"><b>TREASURER</b></div>
-                                <div class="des">
+                                <div class="des mb-3">
                                     <!-- 20 lorem -->
                                     Adam Rinaldi - Della Nur Cahya Putri
                                 </div>
@@ -573,7 +580,7 @@
                             </div>
                             <div class="detail">
                                 <div class="title"><b>TREASURER</b></div>
-                                <div class="des">
+                                <div class="des mb-3">
                                     Bendahara bertanggung jawab untuk mengelola dan mengurus keuangan serta aset
                                     suatu organisasi.
                                 </div>
@@ -589,14 +596,14 @@
                             <div class="introduce">
                                 {{-- <div class="title">DEPARTMENT</div> --}}
                                 <div class="topic"><b>SECRETARY</b></div>
-                                <div class="des">
+                                <div class="des mb-3">
                                     Ananda Dwi Cynta - Nabilah Rasyiqah
                                 </div>
                                 <button class="seeMore">SEE MORE &#8599</button>
                             </div>
                             <div class="detail">
                                 <div class="title"><b>SECRETARY</b></div>
-                                <div class="des">
+                                <div class="des mb-3">
                                     Bendahara bertanggung jawab untuk mengelola dan mengurus keuangan serta aset
                                     suatu organisasi.
                                 </div>
@@ -612,14 +619,14 @@
                             <div class="introduce">
                                 <div class="title">DEPARTMENT</div>
                                 <div class="topic"><b>MEDINFO</b></div>
-                                <div class="des">
+                                <div class="des mb-3">
                                     M. Fadli Taptajani - Nakhlah Wafa A.
                                 </div>
                                 <button class="seeMore">SEE MORE &#8599</button>
                             </div>
                             <div class="detail">
                                 <div class="title"><b>MEDINFO</b></div>
-                                <div class="des">
+                                <div class="des mb-3">
                                     MEDINFO merupakan departemen yang bertanggung jawab atas pengelolaan,
                                     distribusi, dan penyebaran informasi serta pengembangan media komunikasi dalam
                                     sebuah organisasi.
@@ -638,14 +645,14 @@
                             <div class="introduce">
                                 <div class="title">DEPARTMENT</div>
                                 <div class="topic"><b>RISTEK</b></div>
-                                <div class="des">
+                                <div class="des mb-3">
                                     Yosua Immanuel H.K - Zidan Azzahra
                                 </div>
                                 <button class="seeMore">SEE MORE &#8599</button>
                             </div>
                             <div class="detail">
                                 <div class="title"><b>RISTEK</b></div>
-                                <div class="des">
+                                <div class="des mb-3">
                                     RISTEK merupakan departemen yang berfokus pada pengembangan, penelitian, dan
                                     inovasi dalam bidang teknologi informasi.
                                 </div>
@@ -662,14 +669,14 @@
                             <div class="introduce">
                                 <div class="title">DEPARTMENT</div>
                                 <div class="topic"><b>PSDA</b></div>
-                                <div class="des">
+                                <div class="des mb-3">
                                     Alvando Lefrand I.L - Fadly Attoriq
                                 </div>
                                 <button class="seeMore">SEE MORE &#8599</button>
                             </div>
                             <div class="detail">
                                 <div class="title"><b>PSDA</b></div>
-                                <div class="des">
+                                <div class="des mb-3">
                                     PSDA merupakan departemen untuk meningkatkan kapasitas dan potensi setiap
                                     individu dalam organisasi, dengan program-program inovatif dan berkelanjutan.
                                 </div>
@@ -686,14 +693,14 @@
                             <div class="introduce">
                                 <div class="title">DEPARTMENT</div>
                                 <div class="topic"><b>HUMAS</b></div>
-                                <div class="des">
+                                <div class="des mb-3">
                                     Radiva Rizky - Muhammad Afriqi
                                 </div>
                                 <button class="seeMore">SEE MORE &#8599</button>
                             </div>
                             <div class="detail">
                                 <div class="title"><b>PSDA</b></div>
-                                <div class="des">
+                                <div class="des mb-3">
                                     HUMAS merupakan departemen yang bertugas untuk menjaga komunikasi dan hubungan
                                     baik dengan organisasi mahasiswa baik di bidang internal maupun eksternal.
                                 </div>
