@@ -851,12 +851,12 @@
         <section id="testimonials" class="alumni">
 
             <div class="container" data-aos="fade-up">
-
+<center>
                 <div class="section-title" data-aos="fade-up">
                     <h2>Alumni</h2>
                     <p>Alumni Himatif</p>
                 </div>
-
+                </center>
                 <div class="row gy-4">
                     @foreach ($alumni as $al)
                     <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
@@ -892,12 +892,12 @@
         <!-- ======= Contact Section ======= -->
         <section id="contact" class="contact">
             <div class="container">
-
+<center>
                 <div class="section-title" data-aos="fade-up">
                     <h2>Contact</h2>
                     <p>Contact Us</p>
                 </div>
-
+                </center>
                 <div class="row">
 
                     <div class="col-lg-4" data-aos="fade-right" data-aos-delay="100">
